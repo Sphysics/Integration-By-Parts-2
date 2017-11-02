@@ -1,0 +1,2035 @@
+[INITIALIZATION][CLIENT][INFO] CraftTweaker: Building registry
+[INITIALIZATION][CLIENT][INFO] CraftTweaker: Successfully built item registry
+[INITIALIZATION][CLIENT][INFO] Loading scripts
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: Expert Mekanism.zs}
+[INITIALIZATION][CLIENT][ERROR] Expert Mekanism.zs:9: Could not resolve <mekanism : BioFuel>
+[INITIALIZATION][CLIENT][ERROR] Expert Mekanism.zs:9: Could not resolve <forestry : decayingWheat>
+[INITIALIZATION][CLIENT][ERROR] Expert Mekanism.zs:9: Could not resolve <actuallyadditions : itemMisc : 21>
+[INITIALIZATION][CLIENT][ERROR] [crafttweaker]: Error executing {[0:crafttweaker]: Expert Mekanism.zs}: null
+java.lang.NullPointerException
+	at Expert_Mekanism.__script__(Expert Mekanism.zs:9)
+	at __ZenMain__.run(Expert_Mekanism)
+	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:147)
+	at crafttweaker.runtime.CrTTweaker.load(CrTTweaker.java:54)
+	at crafttweaker.CrafttweakerImplementationAPI.load(CrafttweakerImplementationAPI.java:113)
+	at crafttweaker.mc1120.events.CommonEventHandler.registerRecipes(CommonEventHandler.java:47)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_282_CommonEventHandler_registerRecipes_Register.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus$1.invoke(EventBus.java:143)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:179)
+	at net.minecraftforge.registries.GameData.fireRegistryEvents(GameData.java:746)
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:623)
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:717)
+	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:348)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:534)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:377)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ExpertAA.zs}
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:25: Could not resolve <actuallyadditions : blockAtomicReconstructor>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:26: Could not resolve <actuallyadditions : blockMisc : 9>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:27: Could not resolve <actuallyadditions : blockGrinder>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:28: Could not resolve <actuallyadditions : blockFurnaceDouble>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:29: Could not resolve <actuallyadditions : blockCoalGenerator>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:30: Could not resolve <actuallyadditions : itemDrill : 3>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:31: Could not resolve <actuallyadditions : itemMisc : 16>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:32: Could not resolve <actuallyadditions : itemMisc : 8>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:33: Could not resolve <actuallyadditions : blockDisplayStand>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:34: Could not resolve <actuallyadditions : blockEmpowerer>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:35: Could not resolve <actuallyadditions : blockMiner>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:36: Could not resolve <actuallyadditions : itemWingsOfTheBats>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:38: Could not resolve <actuallyadditions : blockAtomicReconstructor>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:38: Could not resolve <embers : ingotDawnstone>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:38: Could not resolve <embers : ingotDawnstone>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:40: Could not resolve <embers : ingotDawnstone>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:40: Could not resolve <actuallyadditions : blockMisc : 9>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:40: Could not resolve <embers : ingotDawnstone>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:42: Could not resolve <actuallyadditions : blockMisc : 9>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:42: Could not resolve <sonarcore : ReinforcedStoneBlock>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:43: Could not resolve <sonarcore : ReinforcedStoneBlock>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:43: Could not resolve <actuallyadditions : itemMisc : 5>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:43: Could not resolve <sonarcore : ReinforcedStoneBlock>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:44: Could not resolve <sonarcore : ReinforcedStoneBlock>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:46: Could not resolve <actuallyadditions : blockGrinder>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:46: Could not resolve <actuallyadditions : itemCrystal>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:46: Could not resolve <calculator : ShardAmethyst>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:46: Could not resolve <embers : blockCaminiteBrick>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:47: Could not resolve <actuallyadditions : itemMisc : 7>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:47: Could not resolve <actuallyadditions : blockMisc : 9>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:47: Could not resolve <actuallyadditions : itemMisc : 7>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:48: Could not resolve <embers : blockCaminiteBrick>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:48: Could not resolve <calculator : ShardAmethyst>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:48: Could not resolve <actuallyadditions : itemCrystal>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:50: Could not resolve <actuallyadditions : blockFurnaceDouble>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:50: Could not resolve <embers : crystalEmber>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:50: Could not resolve <actuallyadditions : itemMisc : 7>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:50: Could not resolve <embers : blockCaminiteBrick>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:51: Could not resolve <actuallyadditions : blockMisc : 9>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:52: Could not resolve <embers : blockCaminiteBrick>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:52: Could not resolve <actuallyadditions : itemMisc : 7>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:52: Could not resolve <embers : crystalEmber>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:54: Could not resolve <actuallyadditions : blockCoalGenerator>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:55: Could not resolve <embers : blockCaminiteBrick>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:55: Could not resolve <actuallyadditions : blockMisc : 9>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:55: Could not resolve <embers : blockCaminiteBrick>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:56: Could not resolve <embers : crystalEmber>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:58: Could not resolve <actuallyadditions : itemDrill : 3>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:58: Could not resolve <actuallyadditions : blockCrystal : 2>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:58: Could not resolve <actuallyadditions : blockCrystal : 2>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:58: Could not resolve <actuallyadditions : blockCrystal : 2>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:59: Could not resolve <actuallyadditions : itemMisc : 8>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:59: Could not resolve <actuallyadditions : itemMisc : 16>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:59: Could not resolve <actuallyadditions : itemMisc : 8>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:60: Could not resolve <actuallyadditions : blockCrystal : 5>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:60: Could not resolve <actuallyadditions : blockCrystal : 5>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:60: Could not resolve <actuallyadditions : blockCrystal : 5>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:62: Could not resolve <actuallyadditions : itemMisc : 16>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:62: Could not resolve <actuallyadditions : itemMisc : 7>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:63: Could not resolve <actuallyadditions : itemMisc : 8>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:63: Could not resolve <actuallyadditions : itemCrystal>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:63: Could not resolve <actuallyadditions : itemMisc : 8>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:64: Could not resolve <actuallyadditions : itemMisc : 7>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:66: Could not resolve <actuallyadditions : itemDrill : 3>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:68: Could not resolve <actuallyadditions : itemMisc : 8>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:68: Could not resolve <actuallyadditions : itemCrystal>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:68: Could not resolve <calculator : EnrichedGoldIngot>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:68: Could not resolve <actuallyadditions : itemCrystal>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:69: Could not resolve <calculator : EnrichedGoldIngot>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:69: Could not resolve <actuallyadditions : itemMisc : 7>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:69: Could not resolve <calculator : EnrichedGoldIngot>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:70: Could not resolve <actuallyadditions : itemCrystal>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:70: Could not resolve <calculator : EnrichedGoldIngot>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:70: Could not resolve <actuallyadditions : itemCrystal>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:72: Could not resolve <actuallyadditions : blockDisplayStand>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:72: Could not resolve <actuallyadditions : itemMisc : 8>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:73: Could not resolve <actuallyadditions : blockTestifiBucksGreenWall>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:73: Could not resolve <actuallyadditions : blockTestifiBucksGreenWall>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:73: Could not resolve <actuallyadditions : blockTestifiBucksGreenWall>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:74: Could not resolve <actuallyadditions : blockTestifiBucksWhiteWall>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:74: Could not resolve <actuallyadditions : blockTestifiBucksWhiteWall>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:76: Could not resolve <actuallyadditions : blockEmpowerer>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:76: Could not resolve <actuallyadditions : itemCrystal>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:77: Could not resolve <actuallyadditions : itemBatteryDouble>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:78: Could not resolve <actuallyadditions : blockMisc : 9>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:78: Could not resolve <actuallyadditions : blockDisplayStand>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:78: Could not resolve <actuallyadditions : blockMisc : 9>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:80: Could not resolve <actuallyadditions : blockMiner>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:80: Could not resolve <actuallyadditions : blockMisc : 9>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:80: Could not resolve <botania : rfGenerator>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:80: Could not resolve <actuallyadditions : blockMisc : 9>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:81: Could not resolve <botania : rfGenerator>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:81: Could not resolve <actuallyadditions : blockCrystal : 3>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:81: Could not resolve <botania : rfGenerator>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:82: Could not resolve <actuallyadditions : blockMisc : 9>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:82: Could not resolve <actuallyadditions : itemDrill : 3>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:82: Could not resolve <actuallyadditions : blockMisc : 9>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:84: Could not resolve <actuallyadditions : itemWingsOfTheBats>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:84: Could not resolve <actuallyadditions : itemMisc : 15>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:84: Could not resolve <actuallyadditions : blockCrystalEmpowered : 2>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:84: Could not resolve <actuallyadditions : itemMisc : 15>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:85: Could not resolve <actuallyadditions : itemMisc : 19>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:85: Could not resolve <actuallyadditions : itemMisc : 19>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:86: Could not resolve <actuallyadditions : itemMisc : 15>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:86: Could not resolve <actuallyadditions : blockCrystalEmpowered : 2>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:86: Could not resolve <actuallyadditions : itemMisc : 15>
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:6 > No such static member in mods.actuallyadditions.Crusher: remove
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:7 > No such static member in mods.actuallyadditions.Crusher: remove
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:8 > No such static member in mods.actuallyadditions.Crusher: remove
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:9 > No such static member in mods.actuallyadditions.Crusher: remove
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:10 > No such static member in mods.actuallyadditions.Crusher: remove
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:11 > No such static member in mods.actuallyadditions.Crusher: remove
+[INITIALIZATION][CLIENT][ERROR] ExpertAA.zs:12 > No such static member in mods.actuallyadditions.Crusher: remove
+[INITIALIZATION][CLIENT][ERROR] [crafttweaker]: Error executing {[0:crafttweaker]: ExpertAA.zs}: Truncated class file
+java.lang.ClassFormatError: Truncated class file
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:760)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:642)
+	at stanhebben.zenscript.ZenModule$MyClassLoader.findClass(ZenModule.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at ExpertAA.__script__(ExpertAA.zs:6)
+	at __ZenMain__.run(ExpertAA)
+	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:147)
+	at crafttweaker.runtime.CrTTweaker.load(CrTTweaker.java:54)
+	at crafttweaker.CrafttweakerImplementationAPI.load(CrafttweakerImplementationAPI.java:113)
+	at crafttweaker.mc1120.events.CommonEventHandler.registerRecipes(CommonEventHandler.java:47)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_282_CommonEventHandler_registerRecipes_Register.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus$1.invoke(EventBus.java:143)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:179)
+	at net.minecraftforge.registries.GameData.fireRegistryEvents(GameData.java:746)
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:623)
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:717)
+	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:348)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:534)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:377)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ExpertBotania.zs}
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:1 > No such member: botania
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:1 > Not a valid type
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:2 > No such member: botania
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:2 > Not a valid type
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:3 > No such member: botania
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:3 > Not a valid type
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:6: Could not resolve <botania : runeAltar>
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:7: Could not resolve <botania : flightTiara>
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:9: Could not resolve <botania : terraPlate>
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:12: Could not resolve <botania : runeAltar>
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:12: Could not resolve <embers : brickCaminite>
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:12: Could not resolve <embers : brickCaminite>
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:12: Could not resolve <embers : brickCaminite>
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:12: Could not resolve <botania : manaResource : 2>
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:13: Could not resolve <botania : runeAltar>
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:13: Could not resolve <embers : brickCaminite>
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:13: Could not resolve <embers : brickCaminite>
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:13: Could not resolve <embers : brickCaminite>
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:13: Could not resolve <botania : manaResource : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:15: Could not resolve <botania : flightTiara>
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:15: Could not resolve <botania : manaResource : 5>
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:15: Could not resolve <botania : manaResource : 5>
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:15: Could not resolve <botania : manaResource : 5>
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:16: Could not resolve <botania : manaResource : 7>
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:16: Could not resolve <botania : manaResource : 5>
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:16: Could not resolve <botania : manaResource : 7>
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:17: Could not resolve <galacticraftcore : item_basic_moon : 2>
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:17: Could not resolve <botania : manaResource : 15>
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:17: Could not resolve <galacticraftcore : item_basic_moon : 2>
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:66: Could not resolve <botania : terraPlate>
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:66: Could not resolve <actuallyadditions : blockCrystalEmpowered : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:66: Could not resolve <actuallyadditions : blockCrystalEmpowered : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:66: Could not resolve <actuallyadditions : blockCrystalEmpowered : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:69: Could not resolve <embers : glimmerShard>
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:74: Could not resolve <botania : manaResource>
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:83: Could not resolve <botania : manaResource>
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:83: Could not resolve <embers : ingotDawnstone>
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:102: Could not resolve <botania : manaResource>
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:102: Could not resolve <botania : manaResource : 23>
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:102: Could not resolve <embers : shardEmber>
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:103: Could not resolve <botania : manaResource>
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:103: Could not resolve <botania : manaResource : 23>
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:103: Could not resolve <embers : blendCaminite>
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:104: Could not resolve <embers : blockCaminiteBrick>
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:104: Could not resolve <botania : manaResource>
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:104: Could not resolve <botania : manaResource : 23>
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:105: Could not resolve <botania : manaResource>
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:105: Could not resolve <botania : manaResource : 23>
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:105: Could not resolve <embers : dustAsh>
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:107: Could not resolve <environmentaltech : sand_enriched>
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:107: Could not resolve <environmentaltech : sand_enriched>
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:107: Could not resolve <environmentaltech : sand_enriched>
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:109: Could not resolve <extraplanets : decorative_blocks : 2>
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:112: Could not resolve <galacticraftcore : item_basic_moon>
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:112: Could not resolve <galacticraftcore : item_basic_moon>
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:74 > could not find ManaInfusion
+[INITIALIZATION][CLIENT][ERROR] ExpertBotania.zs:77 > could not find ManaInfusion
+[INITIALIZATION][CLIENT][ERROR] [crafttweaker]: Error executing {[0:crafttweaker]: ExpertBotania.zs}: 2
+java.lang.ArrayIndexOutOfBoundsException: 2
+	at stanhebben.zenscript.type.natives.JavaMethod.rematch(JavaMethod.java:168)
+	at stanhebben.zenscript.expression.ExpressionCallVirtual.<init>(ExpressionCallVirtual.java:24)
+	at stanhebben.zenscript.type.ZenTypeAny.call(ZenTypeAny.java:175)
+	at stanhebben.zenscript.expression.Expression.call(Expression.java:115)
+	at stanhebben.zenscript.parser.expression.ParsedExpressionCall.compile(ParsedExpressionCall.java:37)
+	at stanhebben.zenscript.statements.StatementExpression.compile(StatementExpression.java:21)
+	at stanhebben.zenscript.ZenModule.compileScripts(ZenModule.java:113)
+	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:138)
+	at crafttweaker.runtime.CrTTweaker.load(CrTTweaker.java:54)
+	at crafttweaker.CrafttweakerImplementationAPI.load(CrafttweakerImplementationAPI.java:113)
+	at crafttweaker.mc1120.events.CommonEventHandler.registerRecipes(CommonEventHandler.java:47)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_282_CommonEventHandler_registerRecipes_Register.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus$1.invoke(EventBus.java:143)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:179)
+	at net.minecraftforge.registries.GameData.fireRegistryEvents(GameData.java:746)
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:623)
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:717)
+	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:348)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:534)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:377)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ExpertCalculator.zs}
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:4: Could not resolve <calculator : CalculatorAssembly>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:5: Could not resolve <calculator : Calculator>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:6: Could not resolve <calculator : PowerCube>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:7: Could not resolve <calculator : ScientificCalculator>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:8: Could not resolve <calculator : AtomicCalculator>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:9: Could not resolve <calculator : FlawlessCalculator>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:12: Could not resolve <calculator : CalculatorAssembly>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:12: Could not resolve <embers : plateDawnstone>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:13: Could not resolve <embers : plateDawnstone>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:13: Could not resolve <embers : plateDawnstone>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:14: Could not resolve <embers : plateDawnstone>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:16: Could not resolve <calculator : Calculator>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:16: Could not resolve <calculator : CalculatorScreen>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:17: Could not resolve <embers : plateDawnstone>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:17: Could not resolve <calculator : CalculatorAssembly>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:17: Could not resolve <embers : plateDawnstone>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:20: Could not resolve <calculator : PowerCube>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:20: Could not resolve <embers : blockCaminiteBrick>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:20: Could not resolve <embers : blockCaminiteBrick>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:22: Could not resolve <embers : blockCaminiteBrick>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:22: Could not resolve <embers : blockCaminiteBrick>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:24: Could not resolve <calculator : ScientificCalculator>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:24: Could not resolve <calculator : EnrichedGoldIngot>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:24: Could not resolve <calculator : CalculatorScreen>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:25: Could not resolve <sonarcore : ReinforcedStoneBlock>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:25: Could not resolve <sonarcore : ReinforcedStoneBlock>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:26: Could not resolve <calculator : CalculatorAssembly>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:26: Could not resolve <calculator : EnrichedGoldIngot>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:28: Could not resolve <calculator : AtomicCalculator>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:28: Could not resolve <calculator : CalculatorScreen>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:29: Could not resolve <calculator : AtomicAssembly>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:32: Could not resolve <calculator : FlawlessCalculator>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:32: Could not resolve <calculator : FlawlessDiamond>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:32: Could not resolve <calculator : CalculatorScreen>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:32: Could not resolve <calculator : FlawlessDiamond>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:33: Could not resolve <calculator : FlawlessAssembly>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:34: Could not resolve <calculator : FlawlessDiamond>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:34: Could not resolve <calculator : EndDiamond>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:34: Could not resolve <calculator : FlawlessDiamond>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:40: Could not resolve <calculator : EnrichedGold>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:43: Could not resolve <calculator : EnrichedGold>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:49: Could not resolve <calculator : WeatherStation>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:52: Could not resolve <enderio : itemMachinePart : 0>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:52: Could not resolve <mekanism : BasicBlock : 8>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:54: Could not resolve <galacticraftcore : basic_item : 9>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:54: Could not resolve <galacticraftcore : basic_item : 8>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:54: Could not resolve <galacticraftcore : basic_item : 10>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:54: Could not resolve <galacticraftcore : heavy_plating>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:56: Could not resolve <galacticraftcore : heavy_plating>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:56: Could not resolve <galacticraftcore : item_basic_moon : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:56: Could not resolve <enderio : itemMaterial : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:56: Could not resolve <galacticraftplanets : item_basic_mars : 3>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:58: Could not resolve <galacticraftplanets : item_basic_mars : 3>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:58: Could not resolve <galacticraftplanets : item_basic_mars : 5>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:58: Could not resolve <enderio : itemMaterial : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:58: Could not resolve <galacticraftplanets : item_basic_asteroids : 5>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:60: Could not resolve <galacticraftplanets : item_basic_asteroids : 5>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:60: Could not resolve <galacticraftplanets : item_basic_asteroids : 0>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:60: Could not resolve <extraplanets : tier4_items : 4>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:60: Could not resolve <extraplanets : tier4_items : 3>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:62: Could not resolve <extraplanets : tier4_items : 3>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:62: Could not resolve <extraplanets : tier5_items : 4>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:62: Could not resolve <enderio : itemMaterial : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:62: Could not resolve <extraplanets : tier5_items : 3>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:64: Could not resolve <extraplanets : tier5_items : 3>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:64: Could not resolve <extraplanets : tier6_items : 4>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:64: Could not resolve <enderio : itemMaterial : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:64: Could not resolve <extraplanets : tier6_items : 3>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:66: Could not resolve <extraplanets : tier6_items : 3>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:66: Could not resolve <extraplanets : tier7_items : 4>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:66: Could not resolve <enderio : itemMaterial : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:66: Could not resolve <extraplanets : tier7_items : 3>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:68: Could not resolve <extraplanets : tier7_items : 3>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:68: Could not resolve <extraplanets : tier8_items : 4>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:68: Could not resolve <enderio : itemMaterial : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:68: Could not resolve <extraplanets : tier8_items : 3>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:70: Could not resolve <extraplanets : tier8_items : 3>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:70: Could not resolve <extraplanets : tier9_items : 4>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:70: Could not resolve <enderio : itemMaterial : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:70: Could not resolve <extraplanets : tier9_items : 3>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:72: Could not resolve <extraplanets : tier9_items : 3>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:72: Could not resolve <extraplanets : tier10_items : 4>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:72: Could not resolve <enderio : itemMaterial : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:72: Could not resolve <extraplanets : tier10_items : 3>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:74: Could not resolve <actuallyadditions : itemCrystalEmpowered : 0>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:74: Could not resolve <redstonearsenal : material : 0>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:76: Could not resolve <enderio : itemAlloy : 6>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:76: Could not resolve <enderio : itemMaterial : 10>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:76: Could not resolve <enderio : itemAlloy : 6>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:76: Could not resolve <calculator : WeatherStation>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:78: Could not resolve <environmentaltech : controller_lightning_1>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:78: Could not resolve <calculator : ConductorMast>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:80: Could not resolve <enderio : itemAlloy : 6>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:80: Could not resolve <calculator : ElectricDiamond>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:80: Could not resolve <calculator : Transmitter>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:86: Could not resolve <embers : alchemyPedestal>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:86: Could not resolve <calculator : FlawlessDiamond>
+[INITIALIZATION][CLIENT][ERROR] ExpertCalculator.zs:86: Could not resolve <draconicevolution : crafting_pedestal : 0>
+[INITIALIZATION][CLIENT][ERROR] [crafttweaker]: Error executing {[0:crafttweaker]: ExpertCalculator.zs}: null
+java.lang.NullPointerException
+	at ExpertCalculator.__script__(ExpertCalculator.zs:12)
+	at __ZenMain__.run(ExpertCalculator)
+	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:147)
+	at crafttweaker.runtime.CrTTweaker.load(CrTTweaker.java:54)
+	at crafttweaker.CrafttweakerImplementationAPI.load(CrafttweakerImplementationAPI.java:113)
+	at crafttweaker.mc1120.events.CommonEventHandler.registerRecipes(CommonEventHandler.java:47)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_282_CommonEventHandler_registerRecipes_Register.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus$1.invoke(EventBus.java:143)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:179)
+	at net.minecraftforge.registries.GameData.fireRegistryEvents(GameData.java:746)
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:623)
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:717)
+	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:348)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:534)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:377)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ExpertDE.zs}
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:5: Could not resolve <draconicevolution : crafting_pedestal : 0>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:18: Could not resolve <mekanism : Shard : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:19: Could not resolve <mekanism : Shard : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:19: Could not resolve <calculator : FlawlessDiamond>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:19: Could not resolve <mekanism : Shard : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:20: Could not resolve <mekanism : Shard : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:22: Could not resolve <extraplanets : tier11_items : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:23: Could not resolve <extraplanets : tier11_items : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:23: Could not resolve <extraplanets : tier11_items : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:24: Could not resolve <extraplanets : tier11_items : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:26: Could not resolve <actuallyadditions : itemMisc : 19>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:26: Could not resolve <actuallyadditions : itemMisc : 19>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:27: Could not resolve <extraplanets : purple_diamond_axe>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:28: Could not resolve <actuallyadditions : itemMisc : 19>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:28: Could not resolve <actuallyadditions : itemMisc : 19>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:30: Could not resolve <actuallyadditions : itemMisc : 19>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:30: Could not resolve <actuallyadditions : itemMisc : 19>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:31: Could not resolve <extraplanets : purple_diamond_pickaxe>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:32: Could not resolve <actuallyadditions : itemMisc : 19>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:32: Could not resolve <actuallyadditions : itemMisc : 19>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:34: Could not resolve <actuallyadditions : itemMisc : 19>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:34: Could not resolve <actuallyadditions : itemMisc : 19>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:35: Could not resolve <extraplanets : purple_diamond_sword>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:36: Could not resolve <actuallyadditions : itemMisc : 19>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:36: Could not resolve <actuallyadditions : itemMisc : 19>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:38: Could not resolve <actuallyadditions : itemMisc : 19>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:38: Could not resolve <actuallyadditions : itemMisc : 19>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:39: Could not resolve <extraplanets : purple_diamond_shovel>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:40: Could not resolve <actuallyadditions : itemMisc : 19>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:40: Could not resolve <actuallyadditions : itemMisc : 19>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:42: Could not resolve <actuallyadditions : itemMisc : 19>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:42: Could not resolve <actuallyadditions : itemMisc : 19>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:43: Could not resolve <redstonearsenal : tool . bow_flux>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:44: Could not resolve <actuallyadditions : itemMisc : 19>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:44: Could not resolve <actuallyadditions : itemMisc : 19>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:47: Could not resolve <actuallyadditions : itemMisc : 19>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:47: Could not resolve <extraplanets : blue_diamond_helmet>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:47: Could not resolve <actuallyadditions : itemMisc : 19>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:51: Could not resolve <actuallyadditions : itemMisc : 19>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:51: Could not resolve <extraplanets : blue_diamond_chest>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:51: Could not resolve <actuallyadditions : itemMisc : 19>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:55: Could not resolve <actuallyadditions : itemMisc : 19>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:55: Could not resolve <extraplanets : blue_diamond_legings>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:55: Could not resolve <actuallyadditions : itemMisc : 19>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:59: Could not resolve <actuallyadditions : itemMisc : 19>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:59: Could not resolve <extraplanets : blue_diamond_boots>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:59: Could not resolve <actuallyadditions : itemMisc : 19>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:62: Could not resolve <mekanism : BasicBlock : 2>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:62: Could not resolve <extraplanets : tier11_items : 3>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:62: Could not resolve <mekanism : BasicBlock : 2>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:63: Could not resolve <extraplanets : tier11_items : 4>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:63: Could not resolve <extraplanets : tier11_items : 4>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:64: Could not resolve <mekanism : BasicBlock : 2>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:64: Could not resolve <extraplanets : tier11_items : 3>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:64: Could not resolve <mekanism : BasicBlock : 2>
+[INITIALIZATION][CLIENT][ERROR] ExpertDE.zs:66: Could not resolve <mekanism : Ingot>
+[INITIALIZATION][CLIENT][ERROR] Null not allowed in shapeless recipes! Recipe for: <draconicevolution:draconium_ore> not created!
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ExpertEIO.zs}
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:1 > No such member: Smeltery
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:1 > Not a valid type
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:7: Could not resolve <enderio : itemMachinePart>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:8: Could not resolve <enderio : itemBasicCapacitor>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:9: Could not resolve <enderio : blockAlloySmelter>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:10: Could not resolve <enderio : blockSagMill>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:11: Could not resolve <enderio : blockTravelAnchor>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:12: Could not resolve <enderio : blockFarmStation>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:13: Could not resolve <enderio : blockZombieGenerator>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:14: Could not resolve <enderio : blockStirlingGenerator>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:20: Could not resolve <enderio : itemBasicCapacitor>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:20: Could not resolve <calculator : EnrichedGoldIngot>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:21: Could not resolve <calculator : EnrichedGoldIngot>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:21: Could not resolve <calculator : EnrichedGoldIngot>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:22: Could not resolve <calculator : EnrichedGoldIngot>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:24: Could not resolve <enderio : blockAlloySmelter>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:24: Could not resolve <actuallyadditions : blockFurnaceDouble>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:25: Could not resolve <actuallyadditions : blockFurnaceDouble>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:25: Could not resolve <enderio : itemMachinePart>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:25: Could not resolve <actuallyadditions : blockFurnaceDouble>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:28: Could not resolve <enderio : blockSagMill>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:29: Could not resolve <enderio : itemAlloy : 6>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:29: Could not resolve <enderio : itemMachinePart>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:29: Could not resolve <enderio : itemAlloy : 6>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:30: Could not resolve <enderio : itemAlloy : 6>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:30: Could not resolve <actuallyadditions : blockGrinder>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:30: Could not resolve <enderio : itemAlloy : 6>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:32: Could not resolve <enderio : blockTravelAnchor>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:32: Could not resolve <galacticraftcore : item_basic_moon>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:32: Could not resolve <enderio : itemMaterial : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:32: Could not resolve <galacticraftcore : item_basic_moon>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:33: Could not resolve <enderio : itemMaterial : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:33: Could not resolve <enderio : itemMaterial : 8>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:33: Could not resolve <enderio : itemMaterial : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:34: Could not resolve <galacticraftcore : item_basic_moon>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:34: Could not resolve <enderio : itemMaterial : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:34: Could not resolve <galacticraftcore : item_basic_moon>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:36: Could not resolve <enderio : itemMachinePart>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:36: Could not resolve <enderio : itemBasicCapacitor>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:36: Could not resolve <enderio : itemBasicCapacitor>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:39: Could not resolve <enderio : blockZombieGenerator>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:39: Could not resolve <enderio : itemAlloy>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:39: Could not resolve <enderio : itemAlloy>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:39: Could not resolve <enderio : itemAlloy>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:40: Could not resolve <enderio : itemFrankenSkull>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:41: Could not resolve <enderio : blockTank : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:41: Could not resolve <enderio : blockCombustionGenerator>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:41: Could not resolve <enderio : blockTank : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:43: Could not resolve <enderio : blockFarmStation>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:43: Could not resolve <enderio : itemAlloy : 0>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:43: Could not resolve <actuallyadditions : blockFarmer>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:43: Could not resolve <enderio : itemAlloy : 0>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:44: Could not resolve <enderio : itemAlloy : 0>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:44: Could not resolve <enderio : itemMachinePart : 0>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:44: Could not resolve <enderio : itemAlloy : 0>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:45: Could not resolve <enderio : itemMaterial : 5>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:45: Could not resolve <enderio : itemFrankenSkull : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:45: Could not resolve <enderio : itemMaterial : 5>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:47: Could not resolve <enderio : blockStirlingGenerator>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:48: Could not resolve <actuallyadditions : blockMisc : 9>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:49: Could not resolve <enderio : itemMachinePart : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertEIO.zs:49: Could not resolve <enderio : itemMachinePart : 1>
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ExpertER.zs}
+[INITIALIZATION][CLIENT][ERROR] ExpertER.zs:11: Could not resolve <extraplanets : ingot_mercury>
+[INITIALIZATION][CLIENT][ERROR] ExpertER.zs:11: Could not resolve <extraplanets : ingot_mercury>
+[INITIALIZATION][CLIENT][ERROR] ExpertER.zs:13: Could not resolve <extraplanets : ingot_mercury>
+[INITIALIZATION][CLIENT][ERROR] ExpertER.zs:13: Could not resolve <extraplanets : ingot_mercury>
+[INITIALIZATION][CLIENT][ERROR] ExpertER.zs:19: Could not resolve <extraplanets : ingot_mercury>
+[INITIALIZATION][CLIENT][ERROR] ExpertER.zs:19: Could not resolve <extraplanets : ingot_mercury>
+[INITIALIZATION][CLIENT][ERROR] ExpertER.zs:20: Could not resolve <extraplanets : ingot_mercury>
+[INITIALIZATION][CLIENT][ERROR] ExpertER.zs:20: Could not resolve <extraplanets : ingot_mercury>
+[INITIALIZATION][CLIENT][ERROR] ExpertER.zs:21: Could not resolve <extraplanets : ingot_mercury>
+[INITIALIZATION][CLIENT][ERROR] ExpertER.zs:21: Could not resolve <advanced_solar_panels : crafting : 10>
+[INITIALIZATION][CLIENT][ERROR] ExpertER.zs:21: Could not resolve <extraplanets : ingot_mercury>
+[INITIALIZATION][CLIENT][ERROR] ExpertER.zs:24: Could not resolve <extraplanets : ingot_mercury>
+[INITIALIZATION][CLIENT][ERROR] ExpertER.zs:24: Could not resolve <extraplanets : ingot_mercury>
+[INITIALIZATION][CLIENT][ERROR] ExpertER.zs:26: Could not resolve <extraplanets : ingot_mercury>
+[INITIALIZATION][CLIENT][ERROR] ExpertER.zs:26: Could not resolve <extraplanets : ingot_mercury>
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ExpertET.zs}
+[INITIALIZATION][CLIENT][ERROR] ExpertET.zs:1 > No such member: Smeltery
+[INITIALIZATION][CLIENT][ERROR] ExpertET.zs:1 > Not a valid type
+[INITIALIZATION][CLIENT][ERROR] ExpertET.zs:7: Could not resolve <environmentaltech : solar_1>
+[INITIALIZATION][CLIENT][ERROR] ExpertET.zs:8: Could not resolve <environmentaltech : controller_solar_1>
+[INITIALIZATION][CLIENT][ERROR] ExpertET.zs:9: Could not resolve <environmentaltech : controller_void_ore_miner_1>
+[INITIALIZATION][CLIENT][ERROR] ExpertET.zs:11: Could not resolve <environmentaltech : controller_void_res_miner_1>
+[INITIALIZATION][CLIENT][ERROR] ExpertET.zs:12: Could not resolve <environmentaltech : modifier_flight>
+[INITIALIZATION][CLIENT][ERROR] ExpertET.zs:14: Could not resolve <environmentaltech : solar_1>
+[INITIALIZATION][CLIENT][ERROR] ExpertET.zs:14: Could not resolve <environmentaltech : glass_clear>
+[INITIALIZATION][CLIENT][ERROR] ExpertET.zs:14: Could not resolve <environmentaltech : glass_clear>
+[INITIALIZATION][CLIENT][ERROR] ExpertET.zs:14: Could not resolve <environmentaltech : glass_clear>
+[INITIALIZATION][CLIENT][ERROR] ExpertET.zs:16: Could not resolve <calculator : RedstoneIngot>
+[INITIALIZATION][CLIENT][ERROR] ExpertET.zs:16: Could not resolve <enderio : itemAlloy : 6>
+[INITIALIZATION][CLIENT][ERROR] ExpertET.zs:16: Could not resolve <calculator : RedstoneIngot>
+[INITIALIZATION][CLIENT][ERROR] ExpertET.zs:18: Could not resolve <environmentaltech : controller_solar_1>
+[INITIALIZATION][CLIENT][ERROR] ExpertET.zs:18: Could not resolve <enderio : blockIngotStorage : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertET.zs:18: Could not resolve <actuallyadditions : blockCrystalEmpowered : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertET.zs:18: Could not resolve <enderio : blockIngotStorage : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertET.zs:19: Could not resolve <actuallyadditions : blockCrystalEmpowered : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertET.zs:19: Could not resolve <environmentaltech : solar_1>
+[INITIALIZATION][CLIENT][ERROR] ExpertET.zs:19: Could not resolve <actuallyadditions : blockCrystalEmpowered : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertET.zs:20: Could not resolve <enderio : blockIngotStorage : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertET.zs:20: Could not resolve <actuallyadditions : blockCrystalEmpowered : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertET.zs:20: Could not resolve <enderio : blockIngotStorage : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertET.zs:22: Could not resolve <environmentaltech : controller_void_ore_miner_1>
+[INITIALIZATION][CLIENT][ERROR] ExpertET.zs:22: Could not resolve <enderio : blockIngotStorage : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertET.zs:22: Could not resolve <enderio : blockIngotStorage : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertET.zs:23: Could not resolve <enderio : blockIngotStorage : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertET.zs:23: Could not resolve <environmentaltech : lens>
+[INITIALIZATION][CLIENT][ERROR] ExpertET.zs:23: Could not resolve <enderio : blockIngotStorage : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertET.zs:26: Could not resolve <environmentaltech : glass_clear>
+[INITIALIZATION][CLIENT][ERROR] ExpertET.zs:26: Could not resolve <calculator : RedstoneIngot>
+[INITIALIZATION][CLIENT][ERROR] ExpertET.zs:26: Could not resolve <environmentaltech : glass_clear>
+[INITIALIZATION][CLIENT][ERROR] ExpertET.zs:28: Could not resolve <environmentaltech : glass_clear>
+[INITIALIZATION][CLIENT][ERROR] ExpertET.zs:28: Could not resolve <calculator : RedstoneIngot>
+[INITIALIZATION][CLIENT][ERROR] ExpertET.zs:28: Could not resolve <environmentaltech : glass_clear>
+[INITIALIZATION][CLIENT][ERROR] ExpertET.zs:30: Could not resolve <environmentaltech : controller_void_res_miner_1>
+[INITIALIZATION][CLIENT][ERROR] ExpertET.zs:30: Could not resolve <enderio : blockIngotStorage : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertET.zs:30: Could not resolve <enderio : blockIngotStorage : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertET.zs:31: Could not resolve <enderio : blockIngotStorage : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertET.zs:31: Could not resolve <environmentaltech : lens>
+[INITIALIZATION][CLIENT][ERROR] ExpertET.zs:31: Could not resolve <enderio : blockIngotStorage : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertET.zs:33: Could not resolve <environmentaltech : modifier_flight>
+[INITIALIZATION][CLIENT][ERROR] ExpertET.zs:34: Could not resolve <environmentaltech : launcher_1>
+[INITIALIZATION][CLIENT][ERROR] ExpertET.zs:34: Could not resolve <environmentaltech : modifier_core>
+[INITIALIZATION][CLIENT][ERROR] ExpertET.zs:34: Could not resolve <environmentaltech : launcher_1>
+[INITIALIZATION][CLIENT][ERROR] ExpertET.zs:35: Could not resolve <environmentaltech : launcher_1>
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ExpertExtraUtils.zs}
+[INITIALIZATION][CLIENT][ERROR] ExpertExtraUtils.zs:1 > No such member: extrautils
+[INITIALIZATION][CLIENT][ERROR] ExpertExtraUtils.zs:1 > Not a valid type
+[INITIALIZATION][CLIENT][ERROR] ExpertExtraUtils.zs:6: Could not resolve <actuallyadditions : itemMisc : 5>
+[INITIALIZATION][CLIENT][ERROR] ExpertExtraUtils.zs:20: Could not resolve <botania : manaResource>
+[INITIALIZATION][CLIENT][ERROR] ExpertExtraUtils.zs:20: Could not resolve <botania : manaResource>
+[INITIALIZATION][CLIENT][ERROR] ExpertExtraUtils.zs:21: Could not resolve <botania : manaResource>
+[INITIALIZATION][CLIENT][ERROR] ExpertExtraUtils.zs:21: Could not resolve <botania : manaResource>
+[INITIALIZATION][CLIENT][ERROR] ExpertExtraUtils.zs:21: Could not resolve <botania : manaResource>
+[INITIALIZATION][CLIENT][ERROR] ExpertExtraUtils.zs:23: Could not resolve <extraplanets : tier5_items : 8>
+[INITIALIZATION][CLIENT][ERROR] ExpertExtraUtils.zs:23: Could not resolve <botania : flightTiara>
+[INITIALIZATION][CLIENT][ERROR] ExpertExtraUtils.zs:23: Could not resolve <extraplanets : tier5_items : 8>
+[INITIALIZATION][CLIENT][ERROR] ExpertExtraUtils.zs:24: Could not resolve <bloodmagic : ItemSigilAir>
+[INITIALIZATION][CLIENT][ERROR] ExpertExtraUtils.zs:24: Could not resolve <simplyjetpacks : metaItemMods : 6>
+[INITIALIZATION][CLIENT][ERROR] ExpertExtraUtils.zs:24: Could not resolve <bloodmagic : ItemSigilAir>
+[INITIALIZATION][CLIENT][ERROR] ExpertExtraUtils.zs:25: Could not resolve <extraplanets : tier5_items : 8>
+[INITIALIZATION][CLIENT][ERROR] ExpertExtraUtils.zs:25: Could not resolve <botania : flightTiara>
+[INITIALIZATION][CLIENT][ERROR] ExpertExtraUtils.zs:25: Could not resolve <extraplanets : tier5_items : 8>
+[INITIALIZATION][CLIENT][ERROR] ExpertExtraUtils.zs:27: Could not resolve <actuallyadditions : itemCrystal : 5>
+[INITIALIZATION][CLIENT][ERROR] ExpertExtraUtils.zs:27: Could not resolve <actuallyadditions : itemCrystal : 5>
+[INITIALIZATION][CLIENT][ERROR] ExpertExtraUtils.zs:27: Could not resolve <actuallyadditions : itemCrystal : 5>
+[INITIALIZATION][CLIENT][ERROR] ExpertExtraUtils.zs:28: Could not resolve <actuallyadditions : itemCrystal : 5>
+[INITIALIZATION][CLIENT][ERROR] ExpertExtraUtils.zs:28: Could not resolve <immersiveengineering : metalDecoration0 : 5>
+[INITIALIZATION][CLIENT][ERROR] ExpertExtraUtils.zs:28: Could not resolve <actuallyadditions : itemCrystal : 5>
+[INITIALIZATION][CLIENT][ERROR] ExpertExtraUtils.zs:29: Could not resolve <actuallyadditions : itemCrystal>
+[INITIALIZATION][CLIENT][ERROR] ExpertExtraUtils.zs:29: Could not resolve <actuallyadditions : itemCrystal>
+[INITIALIZATION][CLIENT][ERROR] ExpertExtraUtils.zs:6 > could not find Resonator
+[INITIALIZATION][CLIENT][ERROR] [crafttweaker]: Error executing {[0:crafttweaker]: ExpertExtraUtils.zs}: 3
+java.lang.ArrayIndexOutOfBoundsException: 3
+	at stanhebben.zenscript.type.natives.JavaMethod.rematch(JavaMethod.java:168)
+	at stanhebben.zenscript.expression.ExpressionCallVirtual.<init>(ExpressionCallVirtual.java:24)
+	at stanhebben.zenscript.type.ZenTypeAny.call(ZenTypeAny.java:175)
+	at stanhebben.zenscript.expression.Expression.call(Expression.java:115)
+	at stanhebben.zenscript.parser.expression.ParsedExpressionCall.compile(ParsedExpressionCall.java:37)
+	at stanhebben.zenscript.statements.StatementExpression.compile(StatementExpression.java:21)
+	at stanhebben.zenscript.ZenModule.compileScripts(ZenModule.java:113)
+	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:138)
+	at crafttweaker.runtime.CrTTweaker.load(CrTTweaker.java:54)
+	at crafttweaker.CrafttweakerImplementationAPI.load(CrafttweakerImplementationAPI.java:113)
+	at crafttweaker.mc1120.events.CommonEventHandler.registerRecipes(CommonEventHandler.java:47)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_282_CommonEventHandler_registerRecipes_Register.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus$1.invoke(EventBus.java:143)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:179)
+	at net.minecraftforge.registries.GameData.fireRegistryEvents(GameData.java:746)
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:623)
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:717)
+	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:348)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:534)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:377)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ExpertForestry.zs}
+[INITIALIZATION][CLIENT][ERROR] ExpertForestry.zs:7: Could not resolve <forestry : sturdyMachine>
+[INITIALIZATION][CLIENT][ERROR] ExpertForestry.zs:11: Could not resolve <forestry : sturdyMachine>
+[INITIALIZATION][CLIENT][ERROR] ExpertForestry.zs:11: Could not resolve <forestry : gearBronze>
+[INITIALIZATION][CLIENT][ERROR] ExpertForestry.zs:12: Could not resolve <actuallyadditions : itemCrystal : 5>
+[INITIALIZATION][CLIENT][ERROR] ExpertForestry.zs:12: Could not resolve <immersiveengineering : metalDecoration0 : 5>
+[INITIALIZATION][CLIENT][ERROR] ExpertForestry.zs:12: Could not resolve <actuallyadditions : itemCrystal : 5>
+[INITIALIZATION][CLIENT][ERROR] ExpertForestry.zs:13: Could not resolve <actuallyadditions : itemMisc : 8>
+[INITIALIZATION][CLIENT][ERROR] ExpertForestry.zs:23: Could not resolve <actuallyadditions : itemCrystal>
+[INITIALIZATION][CLIENT][ERROR] ExpertForestry.zs:23: Could not resolve <actuallyadditions : itemCrystal>
+[INITIALIZATION][CLIENT][ERROR] ExpertForestry.zs:24: Could not resolve <actuallyadditions : itemCrystal>
+[INITIALIZATION][CLIENT][ERROR] ExpertForestry.zs:24: Could not resolve <actuallyadditions : itemMisc : 7>
+[INITIALIZATION][CLIENT][ERROR] ExpertForestry.zs:24: Could not resolve <actuallyadditions : itemCrystal>
+[INITIALIZATION][CLIENT][ERROR] ExpertForestry.zs:25: Could not resolve <actuallyadditions : itemCrystal>
+[INITIALIZATION][CLIENT][ERROR] ExpertForestry.zs:25: Could not resolve <actuallyadditions : itemCrystal>
+[INITIALIZATION][CLIENT][ERROR] ExpertForestry.zs:27: Could not resolve <actuallyadditions : itemCrystal>
+[INITIALIZATION][CLIENT][ERROR] ExpertForestry.zs:27: Could not resolve <actuallyadditions : itemCrystal : 5>
+[INITIALIZATION][CLIENT][ERROR] ExpertForestry.zs:27: Could not resolve <actuallyadditions : itemCrystal>
+[INITIALIZATION][CLIENT][ERROR] ExpertForestry.zs:28: Could not resolve <actuallyadditions : itemCrystal>
+[INITIALIZATION][CLIENT][ERROR] ExpertForestry.zs:28: Could not resolve <actuallyadditions : itemMisc : 7>
+[INITIALIZATION][CLIENT][ERROR] ExpertForestry.zs:28: Could not resolve <actuallyadditions : itemCrystal>
+[INITIALIZATION][CLIENT][ERROR] ExpertForestry.zs:29: Could not resolve <actuallyadditions : itemCrystal>
+[INITIALIZATION][CLIENT][ERROR] ExpertForestry.zs:29: Could not resolve <actuallyadditions : itemCrystal : 5>
+[INITIALIZATION][CLIENT][ERROR] ExpertForestry.zs:29: Could not resolve <actuallyadditions : itemCrystal>
+[INITIALIZATION][CLIENT][ERROR] ExpertForestry.zs:31: Could not resolve <actuallyadditions : itemCrystal>
+[INITIALIZATION][CLIENT][ERROR] ExpertForestry.zs:31: Could not resolve <embers : ingotDawnstone>
+[INITIALIZATION][CLIENT][ERROR] ExpertForestry.zs:31: Could not resolve <actuallyadditions : itemCrystal>
+[INITIALIZATION][CLIENT][ERROR] ExpertForestry.zs:32: Could not resolve <actuallyadditions : itemCrystal>
+[INITIALIZATION][CLIENT][ERROR] ExpertForestry.zs:32: Could not resolve <actuallyadditions : itemMisc : 8>
+[INITIALIZATION][CLIENT][ERROR] ExpertForestry.zs:32: Could not resolve <actuallyadditions : itemCrystal>
+[INITIALIZATION][CLIENT][ERROR] ExpertForestry.zs:33: Could not resolve <actuallyadditions : itemCrystal>
+[INITIALIZATION][CLIENT][ERROR] ExpertForestry.zs:33: Could not resolve <embers : ingotDawnstone>
+[INITIALIZATION][CLIENT][ERROR] ExpertForestry.zs:33: Could not resolve <actuallyadditions : itemCrystal>
+[INITIALIZATION][CLIENT][ERROR] ExpertForestry.zs:35: Could not resolve <actuallyadditions : itemCrystal>
+[INITIALIZATION][CLIENT][ERROR] ExpertForestry.zs:35: Could not resolve <calculator : EnrichedGoldIngot>
+[INITIALIZATION][CLIENT][ERROR] ExpertForestry.zs:35: Could not resolve <actuallyadditions : itemCrystal>
+[INITIALIZATION][CLIENT][ERROR] ExpertForestry.zs:36: Could not resolve <actuallyadditions : itemCrystal>
+[INITIALIZATION][CLIENT][ERROR] ExpertForestry.zs:36: Could not resolve <actuallyadditions : itemMisc : 8>
+[INITIALIZATION][CLIENT][ERROR] ExpertForestry.zs:36: Could not resolve <actuallyadditions : itemCrystal>
+[INITIALIZATION][CLIENT][ERROR] ExpertForestry.zs:37: Could not resolve <actuallyadditions : itemCrystal>
+[INITIALIZATION][CLIENT][ERROR] ExpertForestry.zs:37: Could not resolve <calculator : EnrichedGoldIngot>
+[INITIALIZATION][CLIENT][ERROR] ExpertForestry.zs:37: Could not resolve <actuallyadditions : itemCrystal>
+[INITIALIZATION][CLIENT][ERROR] ExpertForestry.zs:42: Could not resolve <actuallyadditions : itemCanolaSeed>
+[INITIALIZATION][CLIENT][ERROR] ExpertForestry.zs:43: Could not resolve <actuallyadditions : itemMisc : 13>
+[INITIALIZATION][CLIENT][ERROR] ExpertForestry.zs:45: Could not resolve <actuallyadditions : itemCanolaSeed>
+[INITIALIZATION][CLIENT][ERROR] ExpertForestry.zs:45: Could not resolve <actuallyadditions : itemMisc : 21>
+[INITIALIZATION][CLIENT][ERROR] ExpertForestry.zs:46: Could not resolve <actuallyadditions : itemMisc : 13>
+[INITIALIZATION][CLIENT][ERROR] ExpertForestry.zs:46: Could not resolve <actuallyadditions : itemMisc : 21>
+[INITIALIZATION][CLIENT][ERROR] ExpertForestry.zs:45 > operator not supported
+[INITIALIZATION][CLIENT][ERROR] ExpertForestry.zs:46 > operator not supported
+[INITIALIZATION][CLIENT][ERROR] [crafttweaker]: Error executing {[0:crafttweaker]: ExpertForestry.zs}: 3
+java.lang.ArrayIndexOutOfBoundsException: 3
+	at net.minecraftforge.common.crafting.CraftingHelper.parseShaped(CraftingHelper.java:302)
+	at net.minecraftforge.oredict.ShapedOreRecipe.<init>(ShapedOreRecipe.java:70)
+	at forestry.core.recipes.ShapedRecipeCustom.<init>(ShapedRecipeCustom.java:41)
+	at com.blamejared.compat.forestry.Carpenter.addRecipe(Carpenter.java:46)
+	at ExpertForestry.__script__(ExpertForestry.zs:23)
+	at __ZenMain__.run(ExpertForestry)
+	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:147)
+	at crafttweaker.runtime.CrTTweaker.load(CrTTweaker.java:54)
+	at crafttweaker.CrafttweakerImplementationAPI.load(CrafttweakerImplementationAPI.java:113)
+	at crafttweaker.mc1120.events.CommonEventHandler.registerRecipes(CommonEventHandler.java:47)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_282_CommonEventHandler_registerRecipes_Register.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus$1.invoke(EventBus.java:143)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:179)
+	at net.minecraftforge.registries.GameData.fireRegistryEvents(GameData.java:746)
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:623)
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:717)
+	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:348)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:534)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:377)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ExpertGC.zs}
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:1 > No such member: Smeltery
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:1 > Not a valid type
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:7: Could not resolve <galacticraftcore : machine2 : 4>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:8: Could not resolve <galacticraftcore : machine : 12>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:9: Could not resolve <galacticraftcore : machine2>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:10: Could not resolve <galacticraftcore : rocket_workbench>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:11: Could not resolve <galacticraftcore : rocket_fins>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:12: Could not resolve <galacticraftcore : engine>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:13: Could not resolve <galacticraftplanets : carbon_fragments>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:14: Could not resolve <galacticraftcore : machine : 0>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:17: Could not resolve <galacticraftcore : machine2 : 4>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:17: Could not resolve <enderio : itemAlloy : 6>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:17: Could not resolve <enderio : itemRedstoneConduit>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:17: Could not resolve <enderio : itemAlloy : 6>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:18: Could not resolve <enderio : itemAlloy : 4>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:18: Could not resolve <enderio : itemMachinePart>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:18: Could not resolve <enderio : itemAlloy : 4>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:19: Could not resolve <enderio : itemPowerConduit : 2>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:19: Could not resolve <enderio : itemRedstoneConduit>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:19: Could not resolve <enderio : itemPowerConduit : 2>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:21: Could not resolve <galacticraftcore : machine : 12>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:21: Could not resolve <enderio : itemAlloy : 6>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:21: Could not resolve <enderio : blockDarkSteelAnvil>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:21: Could not resolve <enderio : itemAlloy : 6>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:22: Could not resolve <enderio : itemAlloy : 6>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:22: Could not resolve <enderio : itemAlloy : 6>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:23: Could not resolve <enderio : itemAlloy : 6>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:23: Could not resolve <galacticraftcore : basic_item : 13>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:23: Could not resolve <enderio : itemAlloy : 6>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:25: Could not resolve <galacticraftcore : machine2>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:25: Could not resolve <galacticraftcore : basic_item : 9>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:25: Could not resolve <enderio : blockDarkSteelAnvil>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:25: Could not resolve <galacticraftcore : basic_item : 9>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:26: Could not resolve <galacticraftcore : basic_item : 10>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:26: Could not resolve <galacticraftcore : machine : 12>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:26: Could not resolve <galacticraftcore : basic_item : 10>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:27: Could not resolve <enderio : itemPowerConduit : 2>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:27: Could not resolve <galacticraftcore : basic_item : 14>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:27: Could not resolve <enderio : itemPowerConduit : 2>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:29: Could not resolve <galacticraftcore : rocket_workbench>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:29: Could not resolve <enderio : itemAlloy : 6>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:29: Could not resolve <enderio : blockCrafter>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:29: Could not resolve <enderio : itemAlloy : 6>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:30: Could not resolve <enderio : itemRedstoneConduit>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:30: Could not resolve <galacticraftcore : basic_item : 14>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:30: Could not resolve <enderio : itemRedstoneConduit>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:31: Could not resolve <galacticraftcore : basic_item : 9>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:31: Could not resolve <enderio : itemRedstoneConduit>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:31: Could not resolve <galacticraftcore : basic_item : 9>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:33: Could not resolve <galacticraftcore : rocket_fins>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:33: Could not resolve <enderio : itemAlloy : 6>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:34: Could not resolve <galacticraftcore : heavy_plating>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:34: Could not resolve <enderio : itemAlloy : 6>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:34: Could not resolve <galacticraftcore : heavy_plating>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:35: Could not resolve <galacticraftcore : heavy_plating>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:35: Could not resolve <galacticraftcore : heavy_plating>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:37: Could not resolve <galacticraftcore : engine>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:37: Could not resolve <galacticraftcore : heavy_plating>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:37: Could not resolve <galacticraftcore : canister>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:37: Could not resolve <galacticraftcore : heavy_plating>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:38: Could not resolve <galacticraftcore : heavy_plating>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:38: Could not resolve <galacticraftcore : air_vent>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:38: Could not resolve <galacticraftcore : heavy_plating>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:39: Could not resolve <enderio : blockCombustionGenerator>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:39: Could not resolve <enderio : itemRedstoneConduit>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:39: Could not resolve <enderio : blockCombustionGenerator>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:41: Could not resolve <galacticraftcore : dungeonfinder>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:41: Could not resolve <galacticraftcore : basic_block_moon : 14>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:42: Could not resolve <galacticraftplanets : mars : 7>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:42: Could not resolve <galacticraftplanets : basic_item_venus : 2>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:42: Could not resolve <galacticraftplanets : mars : 7>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:43: Could not resolve <galacticraftcore : basic_block_moon : 14>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:44: Could not resolve <galacticraftplanets : carbon_fragments>
+[INITIALIZATION][CLIENT][ERROR] ExpertGC.zs:44: Could not resolve <extraplanets : tier4_items : 5>
+[INITIALIZATION][CLIENT][ERROR] [crafttweaker]: Error executing {[0:crafttweaker]: ExpertGC.zs}: null
+java.lang.NullPointerException
+	at ExpertGC.__script__(ExpertGC.zs:44)
+	at __ZenMain__.run(ExpertGC)
+	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:147)
+	at crafttweaker.runtime.CrTTweaker.load(CrTTweaker.java:54)
+	at crafttweaker.CrafttweakerImplementationAPI.load(CrafttweakerImplementationAPI.java:113)
+	at crafttweaker.mc1120.events.CommonEventHandler.registerRecipes(CommonEventHandler.java:47)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_282_CommonEventHandler_registerRecipes_Register.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus$1.invoke(EventBus.java:143)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:179)
+	at net.minecraftforge.registries.GameData.fireRegistryEvents(GameData.java:746)
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:623)
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:717)
+	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:348)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:534)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:377)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ExpertIE.zs}
+[INITIALIZATION][CLIENT][ERROR] ExpertIE.zs:6: Could not resolve <actuallyadditions : blockMisc : 5>
+[INITIALIZATION][CLIENT][ERROR] ExpertIE.zs:7: Could not resolve <mekanism : BasicBlock : 3>
+[INITIALIZATION][CLIENT][ERROR] ExpertIE.zs:8: Could not resolve <quark : charcoal_block>
+[INITIALIZATION][CLIENT][ERROR] ExpertIE.zs:15: Could not resolve <embers : brickCaminite>
+[INITIALIZATION][CLIENT][ERROR] ExpertIE.zs:15: Could not resolve <embers : blendCaminite>
+[INITIALIZATION][CLIENT][ERROR] ExpertIE.zs:16: Could not resolve <forestry : bogEarth>
+[INITIALIZATION][CLIENT][ERROR] ExpertIE.zs:20: Could not resolve <immersiveengineering : stoneDecoration>
+[INITIALIZATION][CLIENT][ERROR] ExpertIE.zs:22: Could not resolve <immersiveengineering : stoneDecoration : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertIE.zs:25: Could not resolve <immersiveengineering : metalDevice1 : 13>
+[INITIALIZATION][CLIENT][ERROR] ExpertIE.zs:28: Could not resolve <immersiveengineering : stoneDecoration>
+[INITIALIZATION][CLIENT][ERROR] ExpertIE.zs:28: Could not resolve <embers : blendCaminite>
+[INITIALIZATION][CLIENT][ERROR] ExpertIE.zs:28: Could not resolve <embers : blendCaminite>
+[INITIALIZATION][CLIENT][ERROR] ExpertIE.zs:29: Could not resolve <actuallyadditions : blockTestifiBucksWhiteWall>
+[INITIALIZATION][CLIENT][ERROR] ExpertIE.zs:30: Could not resolve <embers : blendCaminite>
+[INITIALIZATION][CLIENT][ERROR] ExpertIE.zs:30: Could not resolve <embers : blendCaminite>
+[INITIALIZATION][CLIENT][ERROR] ExpertIE.zs:32: Could not resolve <immersiveengineering : stoneDecoration : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertIE.zs:32: Could not resolve <embers : brickCaminite>
+[INITIALIZATION][CLIENT][ERROR] ExpertIE.zs:33: Could not resolve <embers : brickCaminite>
+[INITIALIZATION][CLIENT][ERROR] ExpertIE.zs:33: Could not resolve <embers : shardEmber>
+[INITIALIZATION][CLIENT][ERROR] ExpertIE.zs:33: Could not resolve <embers : brickCaminite>
+[INITIALIZATION][CLIENT][ERROR] ExpertIE.zs:34: Could not resolve <embers : brickCaminite>
+[INITIALIZATION][CLIENT][ERROR] ExpertIE.zs:36: Could not resolve <immersiveengineering : metalDevice1 : 13>
+[INITIALIZATION][CLIENT][ERROR] ExpertIE.zs:36: Could not resolve <calculator : GasLanternOff>
+[INITIALIZATION][CLIENT][ERROR] ExpertIE.zs:37: Could not resolve <enderio : blockFusedQuartz>
+[INITIALIZATION][CLIENT][ERROR] ExpertIE.zs:37: Could not resolve <calculator : FlawlessGreenhouse>
+[INITIALIZATION][CLIENT][ERROR] ExpertIE.zs:37: Could not resolve <enderio : blockFusedQuartz>
+[INITIALIZATION][CLIENT][ERROR] ExpertIE.zs:38: Could not resolve <actuallyadditions : blockFarmer>
+[INITIALIZATION][CLIENT][ERROR] ExpertIE.zs:41: Could not resolve <immersiveengineering : sheetmetalSlab : 8>
+[INITIALIZATION][CLIENT][ERROR] ExpertIE.zs:58: Could not resolve <galacticraftplanets : item_basic_mars : 5>
+[INITIALIZATION][CLIENT][ERROR] ExpertIE.zs:63: Could not resolve <mekanism : BioFuel>
+[INITIALIZATION][CLIENT][ERROR] ExpertIE.zs:63: Could not resolve <actuallyadditions : itemMisc : 21>
+[INITIALIZATION][CLIENT][INFO] Removing 1xitem.coal@1 as Blast Furnace Fuel
+[INITIALIZATION][CLIENT][INFO] Removing 1xtile.air@0 as Blast Furnace Fuel
+[INITIALIZATION][CLIENT][INFO] Removing 1xtile.air@0 as Blast Furnace Fuel
+[INITIALIZATION][CLIENT][INFO] Removing 1xtile.air@0 as Blast Furnace Fuel
+[INITIALIZATION][CLIENT][ERROR] [crafttweaker]: Error executing {[0:crafttweaker]: ExpertIE.zs}: null
+java.lang.NullPointerException
+	at ExpertIE.__script__(ExpertIE.zs:15)
+	at __ZenMain__.run(ExpertIE)
+	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:147)
+	at crafttweaker.runtime.CrTTweaker.load(CrTTweaker.java:54)
+	at crafttweaker.CrafttweakerImplementationAPI.load(CrafttweakerImplementationAPI.java:113)
+	at crafttweaker.mc1120.events.CommonEventHandler.registerRecipes(CommonEventHandler.java:47)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_282_CommonEventHandler_registerRecipes_Register.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus$1.invoke(EventBus.java:143)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:179)
+	at net.minecraftforge.registries.GameData.fireRegistryEvents(GameData.java:746)
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:623)
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:717)
+	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:348)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:534)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:377)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ExpertMA.zs}
+[INITIALIZATION][CLIENT][ERROR] ExpertMA.zs:1 > No such member: Smeltery
+[INITIALIZATION][CLIENT][ERROR] ExpertMA.zs:1 > Not a valid type
+[INITIALIZATION][CLIENT][ERROR] ExpertMA.zs:11: Could not resolve <mysticalagriculture : prosperity_shard>
+[INITIALIZATION][CLIENT][ERROR] ExpertMA.zs:11: Could not resolve <bloodmagic : ItemDemonCrystal : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertMA.zs:11: Could not resolve <mysticalagriculture : prosperity_shard>
+[INITIALIZATION][CLIENT][ERROR] ExpertMA.zs:12: Could not resolve <bloodmagic : ItemDemonCrystal : 2>
+[INITIALIZATION][CLIENT][ERROR] ExpertMA.zs:12: Could not resolve <bloodmagic : ItemDemonCrystal : 3>
+[INITIALIZATION][CLIENT][ERROR] ExpertMA.zs:13: Could not resolve <mysticalagriculture : prosperity_shard>
+[INITIALIZATION][CLIENT][ERROR] ExpertMA.zs:13: Could not resolve <bloodmagic : ItemDemonCrystal : 4>
+[INITIALIZATION][CLIENT][ERROR] ExpertMA.zs:13: Could not resolve <mysticalagriculture : prosperity_shard>
+[INITIALIZATION][CLIENT][ERROR] ExpertMA.zs:16: Could not resolve <mysticalagriculture : supremium_essence>
+[INITIALIZATION][CLIENT][ERROR] ExpertMA.zs:16: Could not resolve <bloodmagic : ItemInscriptionTool : 6>
+[INITIALIZATION][CLIENT][ERROR] ExpertMA.zs:16: Could not resolve <mysticalagriculture : supremium_essence>
+[INITIALIZATION][CLIENT][ERROR] ExpertMA.zs:17: Could not resolve <advanced_solar_panels : crafting : 9>
+[INITIALIZATION][CLIENT][ERROR] ExpertMA.zs:17: Could not resolve <botania : laputaShard : 19>
+[INITIALIZATION][CLIENT][ERROR] ExpertMA.zs:18: Could not resolve <mysticalagriculture : supremium_essence>
+[INITIALIZATION][CLIENT][ERROR] ExpertMA.zs:18: Could not resolve <mekanism : Crystal : 0>
+[INITIALIZATION][CLIENT][ERROR] ExpertMA.zs:18: Could not resolve <mysticalagriculture : supremium_essence>
+[INITIALIZATION][CLIENT][ERROR] ExpertMA.zs:21: Could not resolve <mysticalagriculture : supremium_ingot>
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ExpertMekanism.zs}
+[INITIALIZATION][CLIENT][ERROR] ExpertMekanism.zs:7: Could not resolve <mekanism : BasicBlock : 8>
+[INITIALIZATION][CLIENT][ERROR] ExpertMekanism.zs:8: Could not resolve <mekanism : MultipartTransmitter : 0>
+[INITIALIZATION][CLIENT][ERROR] ExpertMekanism.zs:9: Could not resolve <mekanism : MachineBlock : 10>
+[INITIALIZATION][CLIENT][ERROR] ExpertMekanism.zs:10: Could not resolve <mekanism : MachineBlock : 0>
+[INITIALIZATION][CLIENT][ERROR] ExpertMekanism.zs:11: Could not resolve <mekanism : MachineBlock : 9>
+[INITIALIZATION][CLIENT][ERROR] ExpertMekanism.zs:12: Could not resolve <mekanism : MachineBlock2 : 3>
+[INITIALIZATION][CLIENT][ERROR] ExpertMekanism.zs:13: Could not resolve <mekanism : MachineBlock2 : 6>
+[INITIALIZATION][CLIENT][ERROR] ExpertMekanism.zs:14: Could not resolve <mekanism : TeleportationCore>
+[INITIALIZATION][CLIENT][ERROR] ExpertMekanism.zs:15: Could not resolve <mekanism : MachineBlock : 4>
+[INITIALIZATION][CLIENT][ERROR] ExpertMekanism.zs:16: Could not resolve <mekanism : MachineBlock : 8>
+[INITIALIZATION][CLIENT][ERROR] ExpertMekanism.zs:17: Could not resolve <mekanismgenerators : Generator : 4>
+[INITIALIZATION][CLIENT][ERROR] ExpertMekanism.zs:20: Could not resolve <mekanism : BioFuel>
+[INITIALIZATION][CLIENT][ERROR] ExpertMekanism.zs:20: Could not resolve <forestry : decayingWheat>
+[INITIALIZATION][CLIENT][ERROR] ExpertMekanism.zs:20: Could not resolve <actuallyadditions : itemMisc : 21>
+[INITIALIZATION][CLIENT][ERROR] ExpertMekanism.zs:21: Could not resolve <mekanism : MultipartTransmitter : 0>
+[INITIALIZATION][CLIENT][ERROR] ExpertMekanism.zs:32: Could not resolve <mekanism : MachineBlock : 9>
+[INITIALIZATION][CLIENT][ERROR] ExpertMekanism.zs:32: Could not resolve <mekanism : EnrichedAlloy>
+[INITIALIZATION][CLIENT][ERROR] ExpertMekanism.zs:32: Could not resolve <mekanism : EnrichedAlloy>
+[INITIALIZATION][CLIENT][ERROR] ExpertMekanism.zs:33: Could not resolve <mekanism : MachineBlock : 0>
+[INITIALIZATION][CLIENT][ERROR] ExpertMekanism.zs:34: Could not resolve <mekanism : EnrichedAlloy>
+[INITIALIZATION][CLIENT][ERROR] ExpertMekanism.zs:34: Could not resolve <mekanism : ControlCircuit : 2>
+[INITIALIZATION][CLIENT][ERROR] ExpertMekanism.zs:34: Could not resolve <mekanism : EnrichedAlloy>
+[INITIALIZATION][CLIENT][ERROR] ExpertMekanism.zs:36: Could not resolve <mekanism : MachineBlock2 : 3>
+[INITIALIZATION][CLIENT][ERROR] ExpertMekanism.zs:36: Could not resolve <mekanism : ReinforcedAlloy>
+[INITIALIZATION][CLIENT][ERROR] ExpertMekanism.zs:36: Could not resolve <mekanism : ReinforcedAlloy>
+[INITIALIZATION][CLIENT][ERROR] ExpertMekanism.zs:37: Could not resolve <mekanism : MachineBlock : 9>
+[INITIALIZATION][CLIENT][ERROR] ExpertMekanism.zs:38: Could not resolve <mekanism : ReinforcedAlloy>
+[INITIALIZATION][CLIENT][ERROR] ExpertMekanism.zs:38: Could not resolve <mekanism : ReinforcedAlloy>
+[INITIALIZATION][CLIENT][ERROR] ExpertMekanism.zs:44: Could not resolve <mekanism : TeleportationCore>
+[INITIALIZATION][CLIENT][ERROR] ExpertMekanism.zs:44: Could not resolve <actuallyadditions : itemCrystalEmpowered : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertMekanism.zs:44: Could not resolve <mekanism : AtomicAlloy>
+[INITIALIZATION][CLIENT][ERROR] ExpertMekanism.zs:44: Could not resolve <actuallyadditions : itemCrystalEmpowered : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertMekanism.zs:45: Could not resolve <redstonearsenal : material : 32>
+[INITIALIZATION][CLIENT][ERROR] ExpertMekanism.zs:45: Could not resolve <redstonearsenal : material : 32>
+[INITIALIZATION][CLIENT][ERROR] ExpertMekanism.zs:46: Could not resolve <actuallyadditions : itemCrystalEmpowered : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertMekanism.zs:46: Could not resolve <mekanism : AtomicAlloy>
+[INITIALIZATION][CLIENT][ERROR] ExpertMekanism.zs:46: Could not resolve <actuallyadditions : itemCrystalEmpowered : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertMekanism.zs:48: Could not resolve <mekanism : MachineBlock : 4>
+[INITIALIZATION][CLIENT][ERROR] ExpertMekanism.zs:48: Could not resolve <mekanism : AtomicAlloy>
+[INITIALIZATION][CLIENT][ERROR] ExpertMekanism.zs:48: Could not resolve <mekanism : AtomicAlloy>
+[INITIALIZATION][CLIENT][ERROR] ExpertMekanism.zs:49: Could not resolve <actuallyadditions : blockMiner>
+[INITIALIZATION][CLIENT][ERROR] ExpertMekanism.zs:49: Could not resolve <mekanism : Robit>
+[INITIALIZATION][CLIENT][ERROR] ExpertMekanism.zs:50: Could not resolve <mekanism : TeleportationCore>
+[INITIALIZATION][CLIENT][ERROR] ExpertMekanism.zs:50: Could not resolve <environmentaltech : controller_void_ore_miner_3>
+[INITIALIZATION][CLIENT][ERROR] ExpertMekanism.zs:50: Could not resolve <mekanism : TeleportationCore>
+[INITIALIZATION][CLIENT][ERROR] ExpertMekanism.zs:56: Could not resolve <mekanismgenerators : Generator : 4>
+[INITIALIZATION][CLIENT][ERROR] ExpertMekanism.zs:56: Could not resolve <actuallyadditions : itemMisc : 8>
+[INITIALIZATION][CLIENT][ERROR] ExpertMekanism.zs:56: Could not resolve <actuallyadditions : itemMisc : 8>
+[INITIALIZATION][CLIENT][ERROR] ExpertMekanism.zs:57: Could not resolve <mekanism : BioFuel>
+[INITIALIZATION][CLIENT][ERROR] ExpertMekanism.zs:57: Could not resolve <mekanism : BioFuel>
+[INITIALIZATION][CLIENT][ERROR] ExpertMekanism.zs:58: Could not resolve <actuallyadditions : itemCrystal : 5>
+[INITIALIZATION][CLIENT][ERROR] ExpertMekanism.zs:58: Could not resolve <actuallyadditions : itemCrystal : 5>
+[INITIALIZATION][CLIENT][ERROR] [crafttweaker]: Error executing {[0:crafttweaker]: ExpertMekanism.zs}: null
+java.lang.NullPointerException
+	at ExpertMekanism.__script__(ExpertMekanism.zs:20)
+	at __ZenMain__.run(ExpertMekanism)
+	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:147)
+	at crafttweaker.runtime.CrTTweaker.load(CrTTweaker.java:54)
+	at crafttweaker.CrafttweakerImplementationAPI.load(CrafttweakerImplementationAPI.java:113)
+	at crafttweaker.mc1120.events.CommonEventHandler.registerRecipes(CommonEventHandler.java:47)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_282_CommonEventHandler_registerRecipes_Register.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus$1.invoke(EventBus.java:143)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:179)
+	at net.minecraftforge.registries.GameData.fireRegistryEvents(GameData.java:746)
+	at net.minecraftforge.common.crafting.CraftingHelper.loadRecipes(CraftingHelper.java:623)
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:717)
+	at net.minecraftforge.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:348)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:534)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:377)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ExpertOreDict.zs}
+[INITIALIZATION][CLIENT][INFO] Removing Iridium Ingot from ore dictionary entry ingotIridium
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ExpertPsi.zs}
+[INITIALIZATION][CLIENT][ERROR] ExpertPsi.zs:3: Could not resolve <psi : cadAssembler>
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ExpertRFTools.zs}
+[INITIALIZATION][CLIENT][ERROR] ExpertRFTools.zs:6: Could not resolve <rftoolsdim : dimension_builder>
+[INITIALIZATION][CLIENT][ERROR] ExpertRFTools.zs:9: Could not resolve <actuallyadditions : itemFilter>
+[INITIALIZATION][CLIENT][ERROR] ExpertRFTools.zs:9: Could not resolve <bloodmagic : ItemRouterFilter>
+[INITIALIZATION][CLIENT][ERROR] ExpertRFTools.zs:10: Could not resolve <enderio : itemBasicFilterUpgrade : 0>
+[INITIALIZATION][CLIENT][ERROR] ExpertRFTools.zs:10: Could not resolve <enderio : itemBasicFilterUpgrade : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertRFTools.zs:11: Could not resolve <refinedstorage : grid_filter>
+[INITIALIZATION][CLIENT][ERROR] ExpertRFTools.zs:17: Could not resolve <rftoolsdim : dimension_builder>
+[INITIALIZATION][CLIENT][ERROR] ExpertRFTools.zs:19: Could not resolve <mekanism : Crystal : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertRFTools.zs:19: Could not resolve <mekanism : Crystal : 1>
+[INITIALIZATION][CLIENT][ERROR] ExpertRFTools.zs:19: Could not resolve <mekanism : Crystal : 1>
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ExpertRS+AE2.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ExpertRS.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ExpertTC.zs}
+[INITIALIZATION][CLIENT][ERROR] [crafttweaker | SIDE_CLIENT]: Error parsing ExpertTC.zs:19 -- ; expected
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ExpertTE.zs}
+[INITIALIZATION][CLIENT][ERROR] [crafttweaker | SIDE_CLIENT]: Error parsing ExpertTE.zs:28 -- ; expected
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: MineTweakerRecipeMaker.zs}
+[INITIALIZATION][CLIENT][ERROR] MineTweakerRecipeMaker.zs:37: Could not resolve <sonarcore : ReinforcedStoneBlock>
+[INITIALIZATION][CLIENT][ERROR] MineTweakerRecipeMaker.zs:47: Could not resolve <actuallyadditions : blockMisc : 3>
+[POSTINITIALIZATION][CLIENT][INFO] Trying to remove recipes for invalid output
+[POSTINITIALIZATION][CLIENT][INFO] Trying to remove recipes for invalid output
+[POSTINITIALIZATION][CLIENT][INFO] Trying to remove recipes for invalid output
+[POSTINITIALIZATION][CLIENT][INFO] Trying to remove recipes for invalid output
+[POSTINITIALIZATION][CLIENT][INFO] Trying to remove recipes for invalid output
+[POSTINITIALIZATION][CLIENT][INFO] Trying to remove recipes for invalid output
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <draconicevolution:draconic_core>
+[POSTINITIALIZATION][CLIENT][INFO] Trying to remove recipes for invalid output
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <draconicevolution:wyvern_energy_core>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <draconicevolution:wyvern_axe>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <draconicevolution:wyvern_pick>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <draconicevolution:wyvern_sword>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <draconicevolution:wyvern_shovel>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <draconicevolution:wyvern_bow>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <draconicevolution:wyvern_helm>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <draconicevolution:wyvern_chest>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <draconicevolution:wyvern_legs>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <draconicevolution:wyvern_boots>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <draconicevolution:fusion_crafting_core>
+[POSTINITIALIZATION][CLIENT][INFO] Trying to remove recipes for invalid output
+[POSTINITIALIZATION][CLIENT][INFO] Trying to remove recipes for invalid output
+[POSTINITIALIZATION][CLIENT][INFO] Trying to remove recipes for invalid output
+[POSTINITIALIZATION][CLIENT][INFO] Trying to remove recipes for invalid output
+[POSTINITIALIZATION][CLIENT][INFO] Trying to remove recipes for invalid output
+[POSTINITIALIZATION][CLIENT][INFO] Trying to remove recipes for invalid output
+[POSTINITIALIZATION][CLIENT][INFO] Trying to remove recipes for invalid output
+[POSTINITIALIZATION][CLIENT][INFO] Trying to remove recipes for invalid output
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <bigreactors:reactorcasingcores>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <bigreactors:reactorcasing>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <bigreactors:reactorfuelrod>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <bigreactors:turbinehousingcores>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <bigreactors:turbinehousing>
+[POSTINITIALIZATION][CLIENT][INFO] Trying to remove recipes for invalid output
+[POSTINITIALIZATION][CLIENT][INFO] Trying to remove recipes for invalid output
+[POSTINITIALIZATION][CLIENT][INFO] Trying to remove recipes for invalid output
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <environmentaltech:laser_core>
+[POSTINITIALIZATION][CLIENT][INFO] Trying to remove recipes for invalid output
+[POSTINITIALIZATION][CLIENT][INFO] Trying to remove recipes for invalid output
+[POSTINITIALIZATION][CLIENT][INFO] Trying to remove recipes for invalid output
+[POSTINITIALIZATION][CLIENT][INFO] Trying to remove recipes for invalid output
+[POSTINITIALIZATION][CLIENT][INFO] Trying to remove recipes for invalid output
+[POSTINITIALIZATION][CLIENT][INFO] Trying to remove recipes for invalid output
+[POSTINITIALIZATION][CLIENT][INFO] Trying to remove recipes for invalid output
+[POSTINITIALIZATION][CLIENT][INFO] Trying to remove recipes for invalid output
+[POSTINITIALIZATION][CLIENT][INFO] Trying to remove recipes for invalid output
+[POSTINITIALIZATION][CLIENT][INFO] Trying to remove recipes for invalid output
+[POSTINITIALIZATION][CLIENT][INFO] Trying to remove recipes for invalid output
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <mysticalagriculture:infusion_crystal>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <mysticalagriculture:master_infusion_crystal>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <mysticalagradditions:insanium:2>
+[POSTINITIALIZATION][CLIENT][INFO] Trying to remove recipes for invalid output
+[POSTINITIALIZATION][CLIENT][INFO] Trying to remove recipes for invalid output
+[POSTINITIALIZATION][CLIENT][INFO] Trying to remove recipes for invalid output
+[POSTINITIALIZATION][CLIENT][INFO] Trying to remove recipes for invalid output
+[POSTINITIALIZATION][CLIENT][INFO] Trying to remove recipes for invalid output
+[POSTINITIALIZATION][CLIENT][INFO] Trying to remove recipes for invalid output
+[POSTINITIALIZATION][CLIENT][INFO] Trying to remove recipes for invalid output
+[POSTINITIALIZATION][CLIENT][INFO] Trying to remove recipes for invalid output
+[POSTINITIALIZATION][CLIENT][INFO] Trying to remove recipes for invalid output
+[POSTINITIALIZATION][CLIENT][INFO] Trying to remove recipes for invalid output
+[POSTINITIALIZATION][CLIENT][INFO] Trying to remove recipes for invalid output
+[POSTINITIALIZATION][CLIENT][INFO] Trying to remove recipes for invalid output
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <psi:programmer>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <rftools:shape_card:2>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <rftools:machine_frame>
+[POSTINITIALIZATION][CLIENT][INFO] Trying to remove recipes for invalid output
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <refinedstorage:quartz_enriched_iron>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <refinedstorage:solderer>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <refinedstorage:storage_housing>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <refinedstorage:storage_part>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <refinedstorage:storage_disk>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <refinedstorage:storage_part:1>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <refinedstorage:storage_disk:1>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <refinedstorage:storage_part:2>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <refinedstorage:storage_disk:2>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <refinedstorage:storage_part:3>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <refinedstorage:storage_disk:3>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <refinedstorage:core>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <refinedstorage:core:1>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <refinedstorage:fluid_storage_disk>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <refinedstorage:fluid_storage_disk:1>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <refinedstorage:fluid_storage_disk:2>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <refinedstorage:fluid_storage_disk:3>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <refinedstorage:fluid_storage_part>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <refinedstorage:fluid_storage_part:1>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <refinedstorage:fluid_storage_part:2>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <refinedstorage:fluid_storage_part:3>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <refinedstorage:machine_casing>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <refinedstorage:grid>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <refinedstorage:pattern>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <refinedstorage:controller>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <appliedenergistics2:controller>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <appliedenergistics2:part:380>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <appliedenergistics2:drive>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <refinedstorage:quartz_enriched_iron>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <refinedstorage:solderer>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <refinedstorage:storage_housing>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <refinedstorage:storage_part>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <refinedstorage:storage_disk>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <refinedstorage:storage_part:1>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <refinedstorage:storage_disk:1>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <refinedstorage:storage_part:2>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <refinedstorage:storage_disk:2>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <refinedstorage:storage_part:3>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <refinedstorage:storage_disk:3>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <refinedstorage:core>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <refinedstorage:core:1>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <refinedstorage:fluid_storage_disk>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <refinedstorage:fluid_storage_disk:1>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <refinedstorage:fluid_storage_disk:2>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <refinedstorage:fluid_storage_disk:3>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <refinedstorage:fluid_storage_part>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <refinedstorage:fluid_storage_part:1>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <refinedstorage:fluid_storage_part:2>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <refinedstorage:fluid_storage_part:3>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <refinedstorage:machine_casing>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <refinedstorage:grid>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <refinedstorage:pattern>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <refinedstorage:controller>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <tconstruct:cast_custom:3>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <thermalfoundation:material:356>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <thermalfoundation:material:355>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <thermalfoundation:material:352>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <thermalfoundation:material:327>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <thermalfoundation:material:326>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <thermalfoundation:material:325>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <thermalfoundation:material:324>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <thermalfoundation:material:323>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <thermalfoundation:material:322>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <thermalfoundation:material:321>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <thermalfoundation:material:320>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <thermalfoundation:material:33>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <thermalfoundation:material:32>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <ic2:dust:4>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <ic2:dust:7>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <ic2:dust:8>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <ic2:dust:10>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <ic2:dust:14>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <ic2:dust:17>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <mysticalagriculture:iridium_seeds>
+[POSTINITIALIZATION][CLIENT][INFO] Removing all recipes for <ic2:misc_resource:1>
+[POSTINITIALIZATION][CLIENT][INFO] Trying to remove recipes for invalid output
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Draconic Core with name ct_shaped-734843274
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Wyvern Energy Core with name ct_shaped-1309275005
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Axe of the Wyvern with name ct_shaped-209860192
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Pickaxe of the Wyvern with name ct_shaped245147857
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Sword of the Wyvern with name ct_shaped-1101154543
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Shovel of the Wyvern with name ct_shaped-11921393
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bow of the Wyvern with name ct_shaped533976676
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Wyvern Helm with name ct_shaped-1875072408
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Wyvern Chestplate with name ct_shaped-378763999
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Wyvern Leggings with name ct_shaped-1863358495
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Wyvern Boots with name ct_shaped1647493217
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Fusion Crafting Core with name ct_shaped-1956053772
+[POSTINITIALIZATION][CLIENT][INFO] Trying to add shaped recipe without correct output
+[POSTINITIALIZATION][CLIENT][INFO] Trying to add shaped recipe without correct output
+[POSTINITIALIZATION][CLIENT][INFO] Trying to add shaped recipe without correct output
+[POSTINITIALIZATION][CLIENT][INFO] Trying to add shaped recipe without correct output
+[POSTINITIALIZATION][CLIENT][INFO] Trying to add shaped recipe without correct output
+[POSTINITIALIZATION][CLIENT][INFO] Trying to add shaped recipe without correct output
+[POSTINITIALIZATION][CLIENT][INFO] Trying to add shaped recipe without correct output
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Reactor Casing Core (Legacy) with name ct_shaped-1024018860
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Reactor Casing (Legacy) with name ct_shaped1377936294
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Reactor Fuel Rod (Legacy) with name ct_shaped1564128573
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Turbine Housing Core (Legacy) with name ct_shaped-42681832
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Turbine Housing (Legacy) with name ct_shaped1603110484
+[POSTINITIALIZATION][CLIENT][INFO] Trying to add shaped recipe without correct output
+[POSTINITIALIZATION][CLIENT][INFO] Trying to add shaped recipe without correct output
+[POSTINITIALIZATION][CLIENT][INFO] Trying to add shaped recipe without correct output
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Laser Core with name ct_shaped757917339
+[POSTINITIALIZATION][CLIENT][INFO] Trying to add shaped recipe without correct output
+[POSTINITIALIZATION][CLIENT][INFO] Trying to add shaped recipe without correct output
+[POSTINITIALIZATION][CLIENT][INFO] Trying to add shaped recipe without correct output
+[POSTINITIALIZATION][CLIENT][INFO] Trying to add shaped recipe without correct output
+[POSTINITIALIZATION][CLIENT][INFO] Trying to add shaped recipe without correct output
+[POSTINITIALIZATION][CLIENT][INFO] Trying to add shaped recipe without correct output
+[POSTINITIALIZATION][CLIENT][INFO] Trying to add shaped recipe without correct output
+[POSTINITIALIZATION][CLIENT][INFO] Trying to add shaped recipe without correct output
+[POSTINITIALIZATION][CLIENT][INFO] Trying to add shaped recipe without correct output
+[POSTINITIALIZATION][CLIENT][INFO] Trying to add shaped recipe without correct output
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Infusion Crystal with name ct_shaped1534537948
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Master Infusion Crystal with name ct_shaped-18857841
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Insanium Ingot with name ct_shaped1971973984
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Shape Card (Quarry) with name ct_shaped1874858035
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Machine Frame with name ct_shaped-1111799033
+[POSTINITIALIZATION][CLIENT][INFO] Trying to add shaped recipe without correct output
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 4k Storage Part with name ct_shaped-1046777765
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 16k Storage Part with name ct_shaped66038723
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 64k Storage Part with name ct_shaped-1647319839
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for 1k Storage Disk with name ct_shapeless-1788206997
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for 4k Storage Disk with name ct_shapeless2115956043
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for 16k Storage Disk with name ct_shapeless-874617493
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for 64k Storage Disk with name ct_shapeless429776267
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Construction Core with name ct_shapeless-1504447145
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Destruction Core with name ct_shapeless-1696802996
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for 64k Fluid Storage Disk with name ct_shapeless113015307
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for 128k Fluid Storage Disk with name ct_shapeless-196216725
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for 256k Fluid Storage Disk with name ct_shapeless-679892021
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for 512k Fluid Storage Disk with name ct_shapeless-1163567317
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Machine Casing with name ct_shaped1223883456
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for ME Controller with name ct_shapeless1497878413
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for ME Terminal with name ct_shapeless658430955
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for ME Drive with name ct_shapeless48208577
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 4k Storage Part with name ct_shaped-1046777764
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 16k Storage Part with name ct_shaped66038724
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for 64k Storage Part with name ct_shaped-1647319838
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for 1k Storage Disk with name ct_shapeless-1788206996
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for 4k Storage Disk with name ct_shapeless2115956044
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for 16k Storage Disk with name ct_shapeless-874617492
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for 64k Storage Disk with name ct_shapeless429776268
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Construction Core with name ct_shapeless-1504447144
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Destruction Core with name ct_shapeless-1696802995
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for 64k Fluid Storage Disk with name ct_shapeless113015308
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for 128k Fluid Storage Disk with name ct_shapeless-196216724
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for 256k Fluid Storage Disk with name ct_shapeless-679892020
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for 512k Fluid Storage Disk with name ct_shapeless-1163567316
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Machine Casing with name ct_shaped1223883457
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Dirt with name ct_shaped1488737163
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Pulverized Copper with name ct_shaped-1349640346
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Pulverized Gold with name ct_shaped-2011417365
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Pulverized Iron with name ct_shaped2012711092
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Pulverized Lead with name ct_shaped876954089
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Pulverized Silver with name ct_shaped-1636688664
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Pulverized Tin with name ct_shaped1700560423
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <*>
+[POSTINITIALIZATION][CLIENT][INFO] 5 recipes removed for: <*>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <*>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <*>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <*>
+[POSTINITIALIZATION][CLIENT][INFO] 1 recipes removed for: <*>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <*>
+[POSTINITIALIZATION][CLIENT][INFO] 3 recipes removed for: <*>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <*>
+[POSTINITIALIZATION][CLIENT][INFO] 2 recipes removed for: <*>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <*>
+[POSTINITIALIZATION][CLIENT][INFO] 4 recipes removed for: <*>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <*>
+[POSTINITIALIZATION][CLIENT][INFO] 281 recipes removed for: <*>
+[POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <*>
+[POSTINITIALIZATION][CLIENT][INFO] 0 recipes removed for: <*>
+[AVAILABLE][CLIENT][INFO] Altering Forestry Carpenter Recipe(s) for Basic Circuit Board
+[AVAILABLE][CLIENT][INFO] Altering Forestry Carpenter Recipe(s) for Enhanced Circuit Board
+[AVAILABLE][CLIENT][INFO] Altering Forestry Carpenter Recipe(s) for Refined Circuit Board
+[AVAILABLE][CLIENT][INFO] Altering Forestry Carpenter Recipe(s) for Intricate Circuit Board
+[AVAILABLE][CLIENT][INFO] Adding 1 Empowerer Recipe(s) for <ic2:resource:13>
+[SERVER_STARTED][CLIENT][INFO] Fixed the RecipeBook
+[SERVER_STARTED][SERVER][INFO] Loading scripts
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: Expert Mekanism.zs}
+[SERVER_STARTED][SERVER][ERROR] Expert Mekanism.zs:9: Could not resolve <mekanism : BioFuel>
+[SERVER_STARTED][SERVER][ERROR] Expert Mekanism.zs:9: Could not resolve <forestry : decayingWheat>
+[SERVER_STARTED][SERVER][ERROR] Expert Mekanism.zs:9: Could not resolve <actuallyadditions : itemMisc : 21>
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ExpertAA.zs}
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:25: Could not resolve <actuallyadditions : blockAtomicReconstructor>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:26: Could not resolve <actuallyadditions : blockMisc : 9>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:27: Could not resolve <actuallyadditions : blockGrinder>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:28: Could not resolve <actuallyadditions : blockFurnaceDouble>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:29: Could not resolve <actuallyadditions : blockCoalGenerator>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:30: Could not resolve <actuallyadditions : itemDrill : 3>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:31: Could not resolve <actuallyadditions : itemMisc : 16>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:32: Could not resolve <actuallyadditions : itemMisc : 8>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:33: Could not resolve <actuallyadditions : blockDisplayStand>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:34: Could not resolve <actuallyadditions : blockEmpowerer>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:35: Could not resolve <actuallyadditions : blockMiner>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:36: Could not resolve <actuallyadditions : itemWingsOfTheBats>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:38: Could not resolve <actuallyadditions : blockAtomicReconstructor>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:38: Could not resolve <embers : ingotDawnstone>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:38: Could not resolve <embers : ingotDawnstone>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:40: Could not resolve <embers : ingotDawnstone>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:40: Could not resolve <actuallyadditions : blockMisc : 9>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:40: Could not resolve <embers : ingotDawnstone>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:42: Could not resolve <actuallyadditions : blockMisc : 9>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:42: Could not resolve <sonarcore : ReinforcedStoneBlock>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:43: Could not resolve <sonarcore : ReinforcedStoneBlock>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:43: Could not resolve <actuallyadditions : itemMisc : 5>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:43: Could not resolve <sonarcore : ReinforcedStoneBlock>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:44: Could not resolve <sonarcore : ReinforcedStoneBlock>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:46: Could not resolve <actuallyadditions : blockGrinder>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:46: Could not resolve <actuallyadditions : itemCrystal>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:46: Could not resolve <calculator : ShardAmethyst>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:46: Could not resolve <embers : blockCaminiteBrick>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:47: Could not resolve <actuallyadditions : itemMisc : 7>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:47: Could not resolve <actuallyadditions : blockMisc : 9>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:47: Could not resolve <actuallyadditions : itemMisc : 7>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:48: Could not resolve <embers : blockCaminiteBrick>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:48: Could not resolve <calculator : ShardAmethyst>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:48: Could not resolve <actuallyadditions : itemCrystal>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:50: Could not resolve <actuallyadditions : blockFurnaceDouble>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:50: Could not resolve <embers : crystalEmber>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:50: Could not resolve <actuallyadditions : itemMisc : 7>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:50: Could not resolve <embers : blockCaminiteBrick>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:51: Could not resolve <actuallyadditions : blockMisc : 9>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:52: Could not resolve <embers : blockCaminiteBrick>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:52: Could not resolve <actuallyadditions : itemMisc : 7>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:52: Could not resolve <embers : crystalEmber>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:54: Could not resolve <actuallyadditions : blockCoalGenerator>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:55: Could not resolve <embers : blockCaminiteBrick>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:55: Could not resolve <actuallyadditions : blockMisc : 9>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:55: Could not resolve <embers : blockCaminiteBrick>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:56: Could not resolve <embers : crystalEmber>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:58: Could not resolve <actuallyadditions : itemDrill : 3>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:58: Could not resolve <actuallyadditions : blockCrystal : 2>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:58: Could not resolve <actuallyadditions : blockCrystal : 2>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:58: Could not resolve <actuallyadditions : blockCrystal : 2>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:59: Could not resolve <actuallyadditions : itemMisc : 8>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:59: Could not resolve <actuallyadditions : itemMisc : 16>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:59: Could not resolve <actuallyadditions : itemMisc : 8>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:60: Could not resolve <actuallyadditions : blockCrystal : 5>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:60: Could not resolve <actuallyadditions : blockCrystal : 5>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:60: Could not resolve <actuallyadditions : blockCrystal : 5>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:62: Could not resolve <actuallyadditions : itemMisc : 16>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:62: Could not resolve <actuallyadditions : itemMisc : 7>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:63: Could not resolve <actuallyadditions : itemMisc : 8>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:63: Could not resolve <actuallyadditions : itemCrystal>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:63: Could not resolve <actuallyadditions : itemMisc : 8>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:64: Could not resolve <actuallyadditions : itemMisc : 7>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:66: Could not resolve <actuallyadditions : itemDrill : 3>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:68: Could not resolve <actuallyadditions : itemMisc : 8>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:68: Could not resolve <actuallyadditions : itemCrystal>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:68: Could not resolve <calculator : EnrichedGoldIngot>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:68: Could not resolve <actuallyadditions : itemCrystal>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:69: Could not resolve <calculator : EnrichedGoldIngot>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:69: Could not resolve <actuallyadditions : itemMisc : 7>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:69: Could not resolve <calculator : EnrichedGoldIngot>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:70: Could not resolve <actuallyadditions : itemCrystal>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:70: Could not resolve <calculator : EnrichedGoldIngot>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:70: Could not resolve <actuallyadditions : itemCrystal>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:72: Could not resolve <actuallyadditions : blockDisplayStand>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:72: Could not resolve <actuallyadditions : itemMisc : 8>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:73: Could not resolve <actuallyadditions : blockTestifiBucksGreenWall>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:73: Could not resolve <actuallyadditions : blockTestifiBucksGreenWall>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:73: Could not resolve <actuallyadditions : blockTestifiBucksGreenWall>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:74: Could not resolve <actuallyadditions : blockTestifiBucksWhiteWall>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:74: Could not resolve <actuallyadditions : blockTestifiBucksWhiteWall>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:76: Could not resolve <actuallyadditions : blockEmpowerer>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:76: Could not resolve <actuallyadditions : itemCrystal>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:77: Could not resolve <actuallyadditions : itemBatteryDouble>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:78: Could not resolve <actuallyadditions : blockMisc : 9>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:78: Could not resolve <actuallyadditions : blockDisplayStand>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:78: Could not resolve <actuallyadditions : blockMisc : 9>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:80: Could not resolve <actuallyadditions : blockMiner>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:80: Could not resolve <actuallyadditions : blockMisc : 9>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:80: Could not resolve <botania : rfGenerator>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:80: Could not resolve <actuallyadditions : blockMisc : 9>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:81: Could not resolve <botania : rfGenerator>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:81: Could not resolve <actuallyadditions : blockCrystal : 3>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:81: Could not resolve <botania : rfGenerator>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:82: Could not resolve <actuallyadditions : blockMisc : 9>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:82: Could not resolve <actuallyadditions : itemDrill : 3>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:82: Could not resolve <actuallyadditions : blockMisc : 9>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:84: Could not resolve <actuallyadditions : itemWingsOfTheBats>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:84: Could not resolve <actuallyadditions : itemMisc : 15>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:84: Could not resolve <actuallyadditions : blockCrystalEmpowered : 2>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:84: Could not resolve <actuallyadditions : itemMisc : 15>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:85: Could not resolve <actuallyadditions : itemMisc : 19>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:85: Could not resolve <actuallyadditions : itemMisc : 19>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:86: Could not resolve <actuallyadditions : itemMisc : 15>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:86: Could not resolve <actuallyadditions : blockCrystalEmpowered : 2>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:86: Could not resolve <actuallyadditions : itemMisc : 15>
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:6 > No such static member in mods.actuallyadditions.Crusher: remove
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:7 > No such static member in mods.actuallyadditions.Crusher: remove
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:8 > No such static member in mods.actuallyadditions.Crusher: remove
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:9 > No such static member in mods.actuallyadditions.Crusher: remove
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:10 > No such static member in mods.actuallyadditions.Crusher: remove
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:11 > No such static member in mods.actuallyadditions.Crusher: remove
+[SERVER_STARTED][SERVER][ERROR] ExpertAA.zs:12 > No such static member in mods.actuallyadditions.Crusher: remove
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ExpertBotania.zs}
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:1 > No such member: botania
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:1 > Not a valid type
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:2 > No such member: botania
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:2 > Not a valid type
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:3 > No such member: botania
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:3 > Not a valid type
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:6: Could not resolve <botania : runeAltar>
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:7: Could not resolve <botania : flightTiara>
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:9: Could not resolve <botania : terraPlate>
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:12: Could not resolve <botania : runeAltar>
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:12: Could not resolve <embers : brickCaminite>
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:12: Could not resolve <embers : brickCaminite>
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:12: Could not resolve <embers : brickCaminite>
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:12: Could not resolve <botania : manaResource : 2>
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:13: Could not resolve <botania : runeAltar>
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:13: Could not resolve <embers : brickCaminite>
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:13: Could not resolve <embers : brickCaminite>
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:13: Could not resolve <embers : brickCaminite>
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:13: Could not resolve <botania : manaResource : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:15: Could not resolve <botania : flightTiara>
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:15: Could not resolve <botania : manaResource : 5>
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:15: Could not resolve <botania : manaResource : 5>
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:15: Could not resolve <botania : manaResource : 5>
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:16: Could not resolve <botania : manaResource : 7>
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:16: Could not resolve <botania : manaResource : 5>
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:16: Could not resolve <botania : manaResource : 7>
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:17: Could not resolve <galacticraftcore : item_basic_moon : 2>
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:17: Could not resolve <botania : manaResource : 15>
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:17: Could not resolve <galacticraftcore : item_basic_moon : 2>
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:66: Could not resolve <botania : terraPlate>
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:66: Could not resolve <actuallyadditions : blockCrystalEmpowered : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:66: Could not resolve <actuallyadditions : blockCrystalEmpowered : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:66: Could not resolve <actuallyadditions : blockCrystalEmpowered : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:69: Could not resolve <embers : glimmerShard>
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:74: Could not resolve <botania : manaResource>
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:83: Could not resolve <botania : manaResource>
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:83: Could not resolve <embers : ingotDawnstone>
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:102: Could not resolve <botania : manaResource>
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:102: Could not resolve <botania : manaResource : 23>
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:102: Could not resolve <embers : shardEmber>
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:103: Could not resolve <botania : manaResource>
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:103: Could not resolve <botania : manaResource : 23>
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:103: Could not resolve <embers : blendCaminite>
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:104: Could not resolve <embers : blockCaminiteBrick>
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:104: Could not resolve <botania : manaResource>
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:104: Could not resolve <botania : manaResource : 23>
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:105: Could not resolve <botania : manaResource>
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:105: Could not resolve <botania : manaResource : 23>
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:105: Could not resolve <embers : dustAsh>
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:107: Could not resolve <environmentaltech : sand_enriched>
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:107: Could not resolve <environmentaltech : sand_enriched>
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:107: Could not resolve <environmentaltech : sand_enriched>
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:109: Could not resolve <extraplanets : decorative_blocks : 2>
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:112: Could not resolve <galacticraftcore : item_basic_moon>
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:112: Could not resolve <galacticraftcore : item_basic_moon>
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:74 > could not find ManaInfusion
+[SERVER_STARTED][SERVER][ERROR] ExpertBotania.zs:77 > could not find ManaInfusion
+[SERVER_STARTED][SERVER][ERROR] [crafttweaker]: Error executing {[0:crafttweaker]: ExpertBotania.zs}: 2
+java.lang.ArrayIndexOutOfBoundsException: 2
+	at stanhebben.zenscript.type.natives.JavaMethod.rematch(JavaMethod.java:168)
+	at stanhebben.zenscript.expression.ExpressionCallVirtual.<init>(ExpressionCallVirtual.java:24)
+	at stanhebben.zenscript.type.ZenTypeAny.call(ZenTypeAny.java:175)
+	at stanhebben.zenscript.expression.Expression.call(Expression.java:115)
+	at stanhebben.zenscript.parser.expression.ParsedExpressionCall.compile(ParsedExpressionCall.java:37)
+	at stanhebben.zenscript.statements.StatementExpression.compile(StatementExpression.java:21)
+	at stanhebben.zenscript.ZenModule.compileScripts(ZenModule.java:113)
+	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:138)
+	at crafttweaker.mc1120.commands.Commands$22.executeCommand(Commands.java:692)
+	at crafttweaker.mc1120.commands.CTChatCommand.func_184881_a(CTChatCommand.java:83)
+	at com.feed_the_beast.ftbu.ranks.CmdOverride.func_184881_a(CmdOverride.java:70)
+	at net.minecraft.command.CommandHandler.func_175786_a(CommandHandler.java:119)
+	at net.minecraft.command.CommandHandler.func_71556_a(CommandHandler.java:91)
+	at net.minecraft.network.NetHandlerPlayServer.func_147361_d(NetHandlerPlayServer.java:958)
+	at net.minecraft.network.NetHandlerPlayServer.func_147354_a(NetHandlerPlayServer.java:937)
+	at net.minecraft.network.play.client.CPacketChatMessage.func_148833_a(SourceFile:37)
+	at net.minecraft.network.play.client.CPacketChatMessage.func_148833_a(SourceFile:9)
+	at net.minecraft.network.PacketThreadUtil$1.run(SourceFile:13)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at net.minecraft.util.Util.func_181617_a(SourceFile:46)
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:721)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:666)
+	at net.minecraft.server.integrated.IntegratedServer.func_71217_p(IntegratedServer.java:185)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:524)
+	at java.lang.Thread.run(Thread.java:745)
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ExpertCalculator.zs}
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:4: Could not resolve <calculator : CalculatorAssembly>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:5: Could not resolve <calculator : Calculator>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:6: Could not resolve <calculator : PowerCube>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:7: Could not resolve <calculator : ScientificCalculator>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:8: Could not resolve <calculator : AtomicCalculator>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:9: Could not resolve <calculator : FlawlessCalculator>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:12: Could not resolve <calculator : CalculatorAssembly>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:12: Could not resolve <embers : plateDawnstone>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:13: Could not resolve <embers : plateDawnstone>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:13: Could not resolve <embers : plateDawnstone>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:14: Could not resolve <embers : plateDawnstone>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:16: Could not resolve <calculator : Calculator>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:16: Could not resolve <calculator : CalculatorScreen>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:17: Could not resolve <embers : plateDawnstone>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:17: Could not resolve <calculator : CalculatorAssembly>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:17: Could not resolve <embers : plateDawnstone>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:20: Could not resolve <calculator : PowerCube>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:20: Could not resolve <embers : blockCaminiteBrick>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:20: Could not resolve <embers : blockCaminiteBrick>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:22: Could not resolve <embers : blockCaminiteBrick>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:22: Could not resolve <embers : blockCaminiteBrick>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:24: Could not resolve <calculator : ScientificCalculator>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:24: Could not resolve <calculator : EnrichedGoldIngot>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:24: Could not resolve <calculator : CalculatorScreen>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:25: Could not resolve <sonarcore : ReinforcedStoneBlock>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:25: Could not resolve <sonarcore : ReinforcedStoneBlock>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:26: Could not resolve <calculator : CalculatorAssembly>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:26: Could not resolve <calculator : EnrichedGoldIngot>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:28: Could not resolve <calculator : AtomicCalculator>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:28: Could not resolve <calculator : CalculatorScreen>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:29: Could not resolve <calculator : AtomicAssembly>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:32: Could not resolve <calculator : FlawlessCalculator>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:32: Could not resolve <calculator : FlawlessDiamond>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:32: Could not resolve <calculator : CalculatorScreen>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:32: Could not resolve <calculator : FlawlessDiamond>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:33: Could not resolve <calculator : FlawlessAssembly>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:34: Could not resolve <calculator : FlawlessDiamond>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:34: Could not resolve <calculator : EndDiamond>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:34: Could not resolve <calculator : FlawlessDiamond>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:40: Could not resolve <calculator : EnrichedGold>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:43: Could not resolve <calculator : EnrichedGold>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:49: Could not resolve <calculator : WeatherStation>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:52: Could not resolve <enderio : itemMachinePart : 0>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:52: Could not resolve <mekanism : BasicBlock : 8>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:54: Could not resolve <galacticraftcore : basic_item : 9>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:54: Could not resolve <galacticraftcore : basic_item : 8>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:54: Could not resolve <galacticraftcore : basic_item : 10>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:54: Could not resolve <galacticraftcore : heavy_plating>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:56: Could not resolve <galacticraftcore : heavy_plating>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:56: Could not resolve <galacticraftcore : item_basic_moon : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:56: Could not resolve <enderio : itemMaterial : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:56: Could not resolve <galacticraftplanets : item_basic_mars : 3>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:58: Could not resolve <galacticraftplanets : item_basic_mars : 3>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:58: Could not resolve <galacticraftplanets : item_basic_mars : 5>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:58: Could not resolve <enderio : itemMaterial : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:58: Could not resolve <galacticraftplanets : item_basic_asteroids : 5>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:60: Could not resolve <galacticraftplanets : item_basic_asteroids : 5>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:60: Could not resolve <galacticraftplanets : item_basic_asteroids : 0>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:60: Could not resolve <extraplanets : tier4_items : 4>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:60: Could not resolve <extraplanets : tier4_items : 3>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:62: Could not resolve <extraplanets : tier4_items : 3>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:62: Could not resolve <extraplanets : tier5_items : 4>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:62: Could not resolve <enderio : itemMaterial : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:62: Could not resolve <extraplanets : tier5_items : 3>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:64: Could not resolve <extraplanets : tier5_items : 3>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:64: Could not resolve <extraplanets : tier6_items : 4>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:64: Could not resolve <enderio : itemMaterial : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:64: Could not resolve <extraplanets : tier6_items : 3>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:66: Could not resolve <extraplanets : tier6_items : 3>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:66: Could not resolve <extraplanets : tier7_items : 4>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:66: Could not resolve <enderio : itemMaterial : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:66: Could not resolve <extraplanets : tier7_items : 3>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:68: Could not resolve <extraplanets : tier7_items : 3>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:68: Could not resolve <extraplanets : tier8_items : 4>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:68: Could not resolve <enderio : itemMaterial : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:68: Could not resolve <extraplanets : tier8_items : 3>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:70: Could not resolve <extraplanets : tier8_items : 3>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:70: Could not resolve <extraplanets : tier9_items : 4>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:70: Could not resolve <enderio : itemMaterial : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:70: Could not resolve <extraplanets : tier9_items : 3>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:72: Could not resolve <extraplanets : tier9_items : 3>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:72: Could not resolve <extraplanets : tier10_items : 4>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:72: Could not resolve <enderio : itemMaterial : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:72: Could not resolve <extraplanets : tier10_items : 3>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:74: Could not resolve <actuallyadditions : itemCrystalEmpowered : 0>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:74: Could not resolve <redstonearsenal : material : 0>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:76: Could not resolve <enderio : itemAlloy : 6>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:76: Could not resolve <enderio : itemMaterial : 10>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:76: Could not resolve <enderio : itemAlloy : 6>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:76: Could not resolve <calculator : WeatherStation>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:78: Could not resolve <environmentaltech : controller_lightning_1>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:78: Could not resolve <calculator : ConductorMast>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:80: Could not resolve <enderio : itemAlloy : 6>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:80: Could not resolve <calculator : ElectricDiamond>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:80: Could not resolve <calculator : Transmitter>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:86: Could not resolve <embers : alchemyPedestal>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:86: Could not resolve <calculator : FlawlessDiamond>
+[SERVER_STARTED][SERVER][ERROR] ExpertCalculator.zs:86: Could not resolve <draconicevolution : crafting_pedestal : 0>
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ExpertDE.zs}
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:5: Could not resolve <draconicevolution : crafting_pedestal : 0>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:18: Could not resolve <mekanism : Shard : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:19: Could not resolve <mekanism : Shard : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:19: Could not resolve <calculator : FlawlessDiamond>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:19: Could not resolve <mekanism : Shard : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:20: Could not resolve <mekanism : Shard : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:22: Could not resolve <extraplanets : tier11_items : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:23: Could not resolve <extraplanets : tier11_items : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:23: Could not resolve <extraplanets : tier11_items : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:24: Could not resolve <extraplanets : tier11_items : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:26: Could not resolve <actuallyadditions : itemMisc : 19>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:26: Could not resolve <actuallyadditions : itemMisc : 19>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:27: Could not resolve <extraplanets : purple_diamond_axe>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:28: Could not resolve <actuallyadditions : itemMisc : 19>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:28: Could not resolve <actuallyadditions : itemMisc : 19>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:30: Could not resolve <actuallyadditions : itemMisc : 19>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:30: Could not resolve <actuallyadditions : itemMisc : 19>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:31: Could not resolve <extraplanets : purple_diamond_pickaxe>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:32: Could not resolve <actuallyadditions : itemMisc : 19>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:32: Could not resolve <actuallyadditions : itemMisc : 19>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:34: Could not resolve <actuallyadditions : itemMisc : 19>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:34: Could not resolve <actuallyadditions : itemMisc : 19>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:35: Could not resolve <extraplanets : purple_diamond_sword>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:36: Could not resolve <actuallyadditions : itemMisc : 19>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:36: Could not resolve <actuallyadditions : itemMisc : 19>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:38: Could not resolve <actuallyadditions : itemMisc : 19>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:38: Could not resolve <actuallyadditions : itemMisc : 19>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:39: Could not resolve <extraplanets : purple_diamond_shovel>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:40: Could not resolve <actuallyadditions : itemMisc : 19>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:40: Could not resolve <actuallyadditions : itemMisc : 19>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:42: Could not resolve <actuallyadditions : itemMisc : 19>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:42: Could not resolve <actuallyadditions : itemMisc : 19>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:43: Could not resolve <redstonearsenal : tool . bow_flux>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:44: Could not resolve <actuallyadditions : itemMisc : 19>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:44: Could not resolve <actuallyadditions : itemMisc : 19>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:47: Could not resolve <actuallyadditions : itemMisc : 19>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:47: Could not resolve <extraplanets : blue_diamond_helmet>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:47: Could not resolve <actuallyadditions : itemMisc : 19>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:51: Could not resolve <actuallyadditions : itemMisc : 19>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:51: Could not resolve <extraplanets : blue_diamond_chest>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:51: Could not resolve <actuallyadditions : itemMisc : 19>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:55: Could not resolve <actuallyadditions : itemMisc : 19>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:55: Could not resolve <extraplanets : blue_diamond_legings>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:55: Could not resolve <actuallyadditions : itemMisc : 19>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:59: Could not resolve <actuallyadditions : itemMisc : 19>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:59: Could not resolve <extraplanets : blue_diamond_boots>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:59: Could not resolve <actuallyadditions : itemMisc : 19>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:62: Could not resolve <mekanism : BasicBlock : 2>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:62: Could not resolve <extraplanets : tier11_items : 3>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:62: Could not resolve <mekanism : BasicBlock : 2>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:63: Could not resolve <extraplanets : tier11_items : 4>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:63: Could not resolve <extraplanets : tier11_items : 4>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:64: Could not resolve <mekanism : BasicBlock : 2>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:64: Could not resolve <extraplanets : tier11_items : 3>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:64: Could not resolve <mekanism : BasicBlock : 2>
+[SERVER_STARTED][SERVER][ERROR] ExpertDE.zs:66: Could not resolve <mekanism : Ingot>
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ExpertEIO.zs}
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:1 > No such member: Smeltery
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:1 > Not a valid type
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:7: Could not resolve <enderio : itemMachinePart>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:8: Could not resolve <enderio : itemBasicCapacitor>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:9: Could not resolve <enderio : blockAlloySmelter>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:10: Could not resolve <enderio : blockSagMill>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:11: Could not resolve <enderio : blockTravelAnchor>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:12: Could not resolve <enderio : blockFarmStation>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:13: Could not resolve <enderio : blockZombieGenerator>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:14: Could not resolve <enderio : blockStirlingGenerator>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:20: Could not resolve <enderio : itemBasicCapacitor>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:20: Could not resolve <calculator : EnrichedGoldIngot>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:21: Could not resolve <calculator : EnrichedGoldIngot>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:21: Could not resolve <calculator : EnrichedGoldIngot>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:22: Could not resolve <calculator : EnrichedGoldIngot>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:24: Could not resolve <enderio : blockAlloySmelter>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:24: Could not resolve <actuallyadditions : blockFurnaceDouble>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:25: Could not resolve <actuallyadditions : blockFurnaceDouble>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:25: Could not resolve <enderio : itemMachinePart>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:25: Could not resolve <actuallyadditions : blockFurnaceDouble>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:28: Could not resolve <enderio : blockSagMill>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:29: Could not resolve <enderio : itemAlloy : 6>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:29: Could not resolve <enderio : itemMachinePart>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:29: Could not resolve <enderio : itemAlloy : 6>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:30: Could not resolve <enderio : itemAlloy : 6>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:30: Could not resolve <actuallyadditions : blockGrinder>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:30: Could not resolve <enderio : itemAlloy : 6>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:32: Could not resolve <enderio : blockTravelAnchor>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:32: Could not resolve <galacticraftcore : item_basic_moon>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:32: Could not resolve <enderio : itemMaterial : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:32: Could not resolve <galacticraftcore : item_basic_moon>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:33: Could not resolve <enderio : itemMaterial : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:33: Could not resolve <enderio : itemMaterial : 8>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:33: Could not resolve <enderio : itemMaterial : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:34: Could not resolve <galacticraftcore : item_basic_moon>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:34: Could not resolve <enderio : itemMaterial : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:34: Could not resolve <galacticraftcore : item_basic_moon>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:36: Could not resolve <enderio : itemMachinePart>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:36: Could not resolve <enderio : itemBasicCapacitor>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:36: Could not resolve <enderio : itemBasicCapacitor>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:39: Could not resolve <enderio : blockZombieGenerator>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:39: Could not resolve <enderio : itemAlloy>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:39: Could not resolve <enderio : itemAlloy>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:39: Could not resolve <enderio : itemAlloy>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:40: Could not resolve <enderio : itemFrankenSkull>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:41: Could not resolve <enderio : blockTank : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:41: Could not resolve <enderio : blockCombustionGenerator>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:41: Could not resolve <enderio : blockTank : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:43: Could not resolve <enderio : blockFarmStation>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:43: Could not resolve <enderio : itemAlloy : 0>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:43: Could not resolve <actuallyadditions : blockFarmer>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:43: Could not resolve <enderio : itemAlloy : 0>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:44: Could not resolve <enderio : itemAlloy : 0>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:44: Could not resolve <enderio : itemMachinePart : 0>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:44: Could not resolve <enderio : itemAlloy : 0>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:45: Could not resolve <enderio : itemMaterial : 5>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:45: Could not resolve <enderio : itemFrankenSkull : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:45: Could not resolve <enderio : itemMaterial : 5>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:47: Could not resolve <enderio : blockStirlingGenerator>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:48: Could not resolve <actuallyadditions : blockMisc : 9>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:49: Could not resolve <enderio : itemMachinePart : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertEIO.zs:49: Could not resolve <enderio : itemMachinePart : 1>
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ExpertER.zs}
+[SERVER_STARTED][SERVER][ERROR] ExpertER.zs:11: Could not resolve <extraplanets : ingot_mercury>
+[SERVER_STARTED][SERVER][ERROR] ExpertER.zs:11: Could not resolve <extraplanets : ingot_mercury>
+[SERVER_STARTED][SERVER][ERROR] ExpertER.zs:13: Could not resolve <extraplanets : ingot_mercury>
+[SERVER_STARTED][SERVER][ERROR] ExpertER.zs:13: Could not resolve <extraplanets : ingot_mercury>
+[SERVER_STARTED][SERVER][ERROR] ExpertER.zs:19: Could not resolve <extraplanets : ingot_mercury>
+[SERVER_STARTED][SERVER][ERROR] ExpertER.zs:19: Could not resolve <extraplanets : ingot_mercury>
+[SERVER_STARTED][SERVER][ERROR] ExpertER.zs:20: Could not resolve <extraplanets : ingot_mercury>
+[SERVER_STARTED][SERVER][ERROR] ExpertER.zs:20: Could not resolve <extraplanets : ingot_mercury>
+[SERVER_STARTED][SERVER][ERROR] ExpertER.zs:21: Could not resolve <extraplanets : ingot_mercury>
+[SERVER_STARTED][SERVER][ERROR] ExpertER.zs:21: Could not resolve <advanced_solar_panels : crafting : 10>
+[SERVER_STARTED][SERVER][ERROR] ExpertER.zs:21: Could not resolve <extraplanets : ingot_mercury>
+[SERVER_STARTED][SERVER][ERROR] ExpertER.zs:24: Could not resolve <extraplanets : ingot_mercury>
+[SERVER_STARTED][SERVER][ERROR] ExpertER.zs:24: Could not resolve <extraplanets : ingot_mercury>
+[SERVER_STARTED][SERVER][ERROR] ExpertER.zs:26: Could not resolve <extraplanets : ingot_mercury>
+[SERVER_STARTED][SERVER][ERROR] ExpertER.zs:26: Could not resolve <extraplanets : ingot_mercury>
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ExpertET.zs}
+[SERVER_STARTED][SERVER][ERROR] ExpertET.zs:1 > No such member: Smeltery
+[SERVER_STARTED][SERVER][ERROR] ExpertET.zs:1 > Not a valid type
+[SERVER_STARTED][SERVER][ERROR] ExpertET.zs:7: Could not resolve <environmentaltech : solar_1>
+[SERVER_STARTED][SERVER][ERROR] ExpertET.zs:8: Could not resolve <environmentaltech : controller_solar_1>
+[SERVER_STARTED][SERVER][ERROR] ExpertET.zs:9: Could not resolve <environmentaltech : controller_void_ore_miner_1>
+[SERVER_STARTED][SERVER][ERROR] ExpertET.zs:11: Could not resolve <environmentaltech : controller_void_res_miner_1>
+[SERVER_STARTED][SERVER][ERROR] ExpertET.zs:12: Could not resolve <environmentaltech : modifier_flight>
+[SERVER_STARTED][SERVER][ERROR] ExpertET.zs:14: Could not resolve <environmentaltech : solar_1>
+[SERVER_STARTED][SERVER][ERROR] ExpertET.zs:14: Could not resolve <environmentaltech : glass_clear>
+[SERVER_STARTED][SERVER][ERROR] ExpertET.zs:14: Could not resolve <environmentaltech : glass_clear>
+[SERVER_STARTED][SERVER][ERROR] ExpertET.zs:14: Could not resolve <environmentaltech : glass_clear>
+[SERVER_STARTED][SERVER][ERROR] ExpertET.zs:16: Could not resolve <calculator : RedstoneIngot>
+[SERVER_STARTED][SERVER][ERROR] ExpertET.zs:16: Could not resolve <enderio : itemAlloy : 6>
+[SERVER_STARTED][SERVER][ERROR] ExpertET.zs:16: Could not resolve <calculator : RedstoneIngot>
+[SERVER_STARTED][SERVER][ERROR] ExpertET.zs:18: Could not resolve <environmentaltech : controller_solar_1>
+[SERVER_STARTED][SERVER][ERROR] ExpertET.zs:18: Could not resolve <enderio : blockIngotStorage : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertET.zs:18: Could not resolve <actuallyadditions : blockCrystalEmpowered : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertET.zs:18: Could not resolve <enderio : blockIngotStorage : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertET.zs:19: Could not resolve <actuallyadditions : blockCrystalEmpowered : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertET.zs:19: Could not resolve <environmentaltech : solar_1>
+[SERVER_STARTED][SERVER][ERROR] ExpertET.zs:19: Could not resolve <actuallyadditions : blockCrystalEmpowered : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertET.zs:20: Could not resolve <enderio : blockIngotStorage : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertET.zs:20: Could not resolve <actuallyadditions : blockCrystalEmpowered : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertET.zs:20: Could not resolve <enderio : blockIngotStorage : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertET.zs:22: Could not resolve <environmentaltech : controller_void_ore_miner_1>
+[SERVER_STARTED][SERVER][ERROR] ExpertET.zs:22: Could not resolve <enderio : blockIngotStorage : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertET.zs:22: Could not resolve <enderio : blockIngotStorage : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertET.zs:23: Could not resolve <enderio : blockIngotStorage : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertET.zs:23: Could not resolve <environmentaltech : lens>
+[SERVER_STARTED][SERVER][ERROR] ExpertET.zs:23: Could not resolve <enderio : blockIngotStorage : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertET.zs:26: Could not resolve <environmentaltech : glass_clear>
+[SERVER_STARTED][SERVER][ERROR] ExpertET.zs:26: Could not resolve <calculator : RedstoneIngot>
+[SERVER_STARTED][SERVER][ERROR] ExpertET.zs:26: Could not resolve <environmentaltech : glass_clear>
+[SERVER_STARTED][SERVER][ERROR] ExpertET.zs:28: Could not resolve <environmentaltech : glass_clear>
+[SERVER_STARTED][SERVER][ERROR] ExpertET.zs:28: Could not resolve <calculator : RedstoneIngot>
+[SERVER_STARTED][SERVER][ERROR] ExpertET.zs:28: Could not resolve <environmentaltech : glass_clear>
+[SERVER_STARTED][SERVER][ERROR] ExpertET.zs:30: Could not resolve <environmentaltech : controller_void_res_miner_1>
+[SERVER_STARTED][SERVER][ERROR] ExpertET.zs:30: Could not resolve <enderio : blockIngotStorage : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertET.zs:30: Could not resolve <enderio : blockIngotStorage : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertET.zs:31: Could not resolve <enderio : blockIngotStorage : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertET.zs:31: Could not resolve <environmentaltech : lens>
+[SERVER_STARTED][SERVER][ERROR] ExpertET.zs:31: Could not resolve <enderio : blockIngotStorage : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertET.zs:33: Could not resolve <environmentaltech : modifier_flight>
+[SERVER_STARTED][SERVER][ERROR] ExpertET.zs:34: Could not resolve <environmentaltech : launcher_1>
+[SERVER_STARTED][SERVER][ERROR] ExpertET.zs:34: Could not resolve <environmentaltech : modifier_core>
+[SERVER_STARTED][SERVER][ERROR] ExpertET.zs:34: Could not resolve <environmentaltech : launcher_1>
+[SERVER_STARTED][SERVER][ERROR] ExpertET.zs:35: Could not resolve <environmentaltech : launcher_1>
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ExpertExtraUtils.zs}
+[SERVER_STARTED][SERVER][ERROR] ExpertExtraUtils.zs:1 > No such member: extrautils
+[SERVER_STARTED][SERVER][ERROR] ExpertExtraUtils.zs:1 > Not a valid type
+[SERVER_STARTED][SERVER][ERROR] ExpertExtraUtils.zs:6: Could not resolve <actuallyadditions : itemMisc : 5>
+[SERVER_STARTED][SERVER][ERROR] ExpertExtraUtils.zs:20: Could not resolve <botania : manaResource>
+[SERVER_STARTED][SERVER][ERROR] ExpertExtraUtils.zs:20: Could not resolve <botania : manaResource>
+[SERVER_STARTED][SERVER][ERROR] ExpertExtraUtils.zs:21: Could not resolve <botania : manaResource>
+[SERVER_STARTED][SERVER][ERROR] ExpertExtraUtils.zs:21: Could not resolve <botania : manaResource>
+[SERVER_STARTED][SERVER][ERROR] ExpertExtraUtils.zs:21: Could not resolve <botania : manaResource>
+[SERVER_STARTED][SERVER][ERROR] ExpertExtraUtils.zs:23: Could not resolve <extraplanets : tier5_items : 8>
+[SERVER_STARTED][SERVER][ERROR] ExpertExtraUtils.zs:23: Could not resolve <botania : flightTiara>
+[SERVER_STARTED][SERVER][ERROR] ExpertExtraUtils.zs:23: Could not resolve <extraplanets : tier5_items : 8>
+[SERVER_STARTED][SERVER][ERROR] ExpertExtraUtils.zs:24: Could not resolve <bloodmagic : ItemSigilAir>
+[SERVER_STARTED][SERVER][ERROR] ExpertExtraUtils.zs:24: Could not resolve <simplyjetpacks : metaItemMods : 6>
+[SERVER_STARTED][SERVER][ERROR] ExpertExtraUtils.zs:24: Could not resolve <bloodmagic : ItemSigilAir>
+[SERVER_STARTED][SERVER][ERROR] ExpertExtraUtils.zs:25: Could not resolve <extraplanets : tier5_items : 8>
+[SERVER_STARTED][SERVER][ERROR] ExpertExtraUtils.zs:25: Could not resolve <botania : flightTiara>
+[SERVER_STARTED][SERVER][ERROR] ExpertExtraUtils.zs:25: Could not resolve <extraplanets : tier5_items : 8>
+[SERVER_STARTED][SERVER][ERROR] ExpertExtraUtils.zs:27: Could not resolve <actuallyadditions : itemCrystal : 5>
+[SERVER_STARTED][SERVER][ERROR] ExpertExtraUtils.zs:27: Could not resolve <actuallyadditions : itemCrystal : 5>
+[SERVER_STARTED][SERVER][ERROR] ExpertExtraUtils.zs:27: Could not resolve <actuallyadditions : itemCrystal : 5>
+[SERVER_STARTED][SERVER][ERROR] ExpertExtraUtils.zs:28: Could not resolve <actuallyadditions : itemCrystal : 5>
+[SERVER_STARTED][SERVER][ERROR] ExpertExtraUtils.zs:28: Could not resolve <immersiveengineering : metalDecoration0 : 5>
+[SERVER_STARTED][SERVER][ERROR] ExpertExtraUtils.zs:28: Could not resolve <actuallyadditions : itemCrystal : 5>
+[SERVER_STARTED][SERVER][ERROR] ExpertExtraUtils.zs:29: Could not resolve <actuallyadditions : itemCrystal>
+[SERVER_STARTED][SERVER][ERROR] ExpertExtraUtils.zs:29: Could not resolve <actuallyadditions : itemCrystal>
+[SERVER_STARTED][SERVER][ERROR] ExpertExtraUtils.zs:6 > could not find Resonator
+[SERVER_STARTED][SERVER][ERROR] [crafttweaker]: Error executing {[0:crafttweaker]: ExpertExtraUtils.zs}: 3
+java.lang.ArrayIndexOutOfBoundsException: 3
+	at stanhebben.zenscript.type.natives.JavaMethod.rematch(JavaMethod.java:168)
+	at stanhebben.zenscript.expression.ExpressionCallVirtual.<init>(ExpressionCallVirtual.java:24)
+	at stanhebben.zenscript.type.ZenTypeAny.call(ZenTypeAny.java:175)
+	at stanhebben.zenscript.expression.Expression.call(Expression.java:115)
+	at stanhebben.zenscript.parser.expression.ParsedExpressionCall.compile(ParsedExpressionCall.java:37)
+	at stanhebben.zenscript.statements.StatementExpression.compile(StatementExpression.java:21)
+	at stanhebben.zenscript.ZenModule.compileScripts(ZenModule.java:113)
+	at crafttweaker.runtime.CrTTweaker.loadScript(CrTTweaker.java:138)
+	at crafttweaker.mc1120.commands.Commands$22.executeCommand(Commands.java:692)
+	at crafttweaker.mc1120.commands.CTChatCommand.func_184881_a(CTChatCommand.java:83)
+	at com.feed_the_beast.ftbu.ranks.CmdOverride.func_184881_a(CmdOverride.java:70)
+	at net.minecraft.command.CommandHandler.func_175786_a(CommandHandler.java:119)
+	at net.minecraft.command.CommandHandler.func_71556_a(CommandHandler.java:91)
+	at net.minecraft.network.NetHandlerPlayServer.func_147361_d(NetHandlerPlayServer.java:958)
+	at net.minecraft.network.NetHandlerPlayServer.func_147354_a(NetHandlerPlayServer.java:937)
+	at net.minecraft.network.play.client.CPacketChatMessage.func_148833_a(SourceFile:37)
+	at net.minecraft.network.play.client.CPacketChatMessage.func_148833_a(SourceFile:9)
+	at net.minecraft.network.PacketThreadUtil$1.run(SourceFile:13)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at net.minecraft.util.Util.func_181617_a(SourceFile:46)
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:721)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:666)
+	at net.minecraft.server.integrated.IntegratedServer.func_71217_p(IntegratedServer.java:185)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:524)
+	at java.lang.Thread.run(Thread.java:745)
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ExpertForestry.zs}
+[SERVER_STARTED][SERVER][ERROR] ExpertForestry.zs:7: Could not resolve <forestry : sturdyMachine>
+[SERVER_STARTED][SERVER][ERROR] ExpertForestry.zs:11: Could not resolve <forestry : sturdyMachine>
+[SERVER_STARTED][SERVER][ERROR] ExpertForestry.zs:11: Could not resolve <forestry : gearBronze>
+[SERVER_STARTED][SERVER][ERROR] ExpertForestry.zs:12: Could not resolve <actuallyadditions : itemCrystal : 5>
+[SERVER_STARTED][SERVER][ERROR] ExpertForestry.zs:12: Could not resolve <immersiveengineering : metalDecoration0 : 5>
+[SERVER_STARTED][SERVER][ERROR] ExpertForestry.zs:12: Could not resolve <actuallyadditions : itemCrystal : 5>
+[SERVER_STARTED][SERVER][ERROR] ExpertForestry.zs:13: Could not resolve <actuallyadditions : itemMisc : 8>
+[SERVER_STARTED][SERVER][ERROR] ExpertForestry.zs:23: Could not resolve <actuallyadditions : itemCrystal>
+[SERVER_STARTED][SERVER][ERROR] ExpertForestry.zs:23: Could not resolve <actuallyadditions : itemCrystal>
+[SERVER_STARTED][SERVER][ERROR] ExpertForestry.zs:24: Could not resolve <actuallyadditions : itemCrystal>
+[SERVER_STARTED][SERVER][ERROR] ExpertForestry.zs:24: Could not resolve <actuallyadditions : itemMisc : 7>
+[SERVER_STARTED][SERVER][ERROR] ExpertForestry.zs:24: Could not resolve <actuallyadditions : itemCrystal>
+[SERVER_STARTED][SERVER][ERROR] ExpertForestry.zs:25: Could not resolve <actuallyadditions : itemCrystal>
+[SERVER_STARTED][SERVER][ERROR] ExpertForestry.zs:25: Could not resolve <actuallyadditions : itemCrystal>
+[SERVER_STARTED][SERVER][ERROR] ExpertForestry.zs:27: Could not resolve <actuallyadditions : itemCrystal>
+[SERVER_STARTED][SERVER][ERROR] ExpertForestry.zs:27: Could not resolve <actuallyadditions : itemCrystal : 5>
+[SERVER_STARTED][SERVER][ERROR] ExpertForestry.zs:27: Could not resolve <actuallyadditions : itemCrystal>
+[SERVER_STARTED][SERVER][ERROR] ExpertForestry.zs:28: Could not resolve <actuallyadditions : itemCrystal>
+[SERVER_STARTED][SERVER][ERROR] ExpertForestry.zs:28: Could not resolve <actuallyadditions : itemMisc : 7>
+[SERVER_STARTED][SERVER][ERROR] ExpertForestry.zs:28: Could not resolve <actuallyadditions : itemCrystal>
+[SERVER_STARTED][SERVER][ERROR] ExpertForestry.zs:29: Could not resolve <actuallyadditions : itemCrystal>
+[SERVER_STARTED][SERVER][ERROR] ExpertForestry.zs:29: Could not resolve <actuallyadditions : itemCrystal : 5>
+[SERVER_STARTED][SERVER][ERROR] ExpertForestry.zs:29: Could not resolve <actuallyadditions : itemCrystal>
+[SERVER_STARTED][SERVER][ERROR] ExpertForestry.zs:31: Could not resolve <actuallyadditions : itemCrystal>
+[SERVER_STARTED][SERVER][ERROR] ExpertForestry.zs:31: Could not resolve <embers : ingotDawnstone>
+[SERVER_STARTED][SERVER][ERROR] ExpertForestry.zs:31: Could not resolve <actuallyadditions : itemCrystal>
+[SERVER_STARTED][SERVER][ERROR] ExpertForestry.zs:32: Could not resolve <actuallyadditions : itemCrystal>
+[SERVER_STARTED][SERVER][ERROR] ExpertForestry.zs:32: Could not resolve <actuallyadditions : itemMisc : 8>
+[SERVER_STARTED][SERVER][ERROR] ExpertForestry.zs:32: Could not resolve <actuallyadditions : itemCrystal>
+[SERVER_STARTED][SERVER][ERROR] ExpertForestry.zs:33: Could not resolve <actuallyadditions : itemCrystal>
+[SERVER_STARTED][SERVER][ERROR] ExpertForestry.zs:33: Could not resolve <embers : ingotDawnstone>
+[SERVER_STARTED][SERVER][ERROR] ExpertForestry.zs:33: Could not resolve <actuallyadditions : itemCrystal>
+[SERVER_STARTED][SERVER][ERROR] ExpertForestry.zs:35: Could not resolve <actuallyadditions : itemCrystal>
+[SERVER_STARTED][SERVER][ERROR] ExpertForestry.zs:35: Could not resolve <calculator : EnrichedGoldIngot>
+[SERVER_STARTED][SERVER][ERROR] ExpertForestry.zs:35: Could not resolve <actuallyadditions : itemCrystal>
+[SERVER_STARTED][SERVER][ERROR] ExpertForestry.zs:36: Could not resolve <actuallyadditions : itemCrystal>
+[SERVER_STARTED][SERVER][ERROR] ExpertForestry.zs:36: Could not resolve <actuallyadditions : itemMisc : 8>
+[SERVER_STARTED][SERVER][ERROR] ExpertForestry.zs:36: Could not resolve <actuallyadditions : itemCrystal>
+[SERVER_STARTED][SERVER][ERROR] ExpertForestry.zs:37: Could not resolve <actuallyadditions : itemCrystal>
+[SERVER_STARTED][SERVER][ERROR] ExpertForestry.zs:37: Could not resolve <calculator : EnrichedGoldIngot>
+[SERVER_STARTED][SERVER][ERROR] ExpertForestry.zs:37: Could not resolve <actuallyadditions : itemCrystal>
+[SERVER_STARTED][SERVER][ERROR] ExpertForestry.zs:42: Could not resolve <actuallyadditions : itemCanolaSeed>
+[SERVER_STARTED][SERVER][ERROR] ExpertForestry.zs:43: Could not resolve <actuallyadditions : itemMisc : 13>
+[SERVER_STARTED][SERVER][ERROR] ExpertForestry.zs:45: Could not resolve <actuallyadditions : itemCanolaSeed>
+[SERVER_STARTED][SERVER][ERROR] ExpertForestry.zs:45: Could not resolve <actuallyadditions : itemMisc : 21>
+[SERVER_STARTED][SERVER][ERROR] ExpertForestry.zs:46: Could not resolve <actuallyadditions : itemMisc : 13>
+[SERVER_STARTED][SERVER][ERROR] ExpertForestry.zs:46: Could not resolve <actuallyadditions : itemMisc : 21>
+[SERVER_STARTED][SERVER][ERROR] ExpertForestry.zs:45 > operator not supported
+[SERVER_STARTED][SERVER][ERROR] ExpertForestry.zs:46 > operator not supported
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ExpertGC.zs}
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:1 > No such member: Smeltery
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:1 > Not a valid type
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:7: Could not resolve <galacticraftcore : machine2 : 4>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:8: Could not resolve <galacticraftcore : machine : 12>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:9: Could not resolve <galacticraftcore : machine2>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:10: Could not resolve <galacticraftcore : rocket_workbench>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:11: Could not resolve <galacticraftcore : rocket_fins>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:12: Could not resolve <galacticraftcore : engine>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:13: Could not resolve <galacticraftplanets : carbon_fragments>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:14: Could not resolve <galacticraftcore : machine : 0>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:17: Could not resolve <galacticraftcore : machine2 : 4>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:17: Could not resolve <enderio : itemAlloy : 6>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:17: Could not resolve <enderio : itemRedstoneConduit>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:17: Could not resolve <enderio : itemAlloy : 6>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:18: Could not resolve <enderio : itemAlloy : 4>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:18: Could not resolve <enderio : itemMachinePart>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:18: Could not resolve <enderio : itemAlloy : 4>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:19: Could not resolve <enderio : itemPowerConduit : 2>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:19: Could not resolve <enderio : itemRedstoneConduit>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:19: Could not resolve <enderio : itemPowerConduit : 2>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:21: Could not resolve <galacticraftcore : machine : 12>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:21: Could not resolve <enderio : itemAlloy : 6>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:21: Could not resolve <enderio : blockDarkSteelAnvil>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:21: Could not resolve <enderio : itemAlloy : 6>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:22: Could not resolve <enderio : itemAlloy : 6>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:22: Could not resolve <enderio : itemAlloy : 6>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:23: Could not resolve <enderio : itemAlloy : 6>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:23: Could not resolve <galacticraftcore : basic_item : 13>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:23: Could not resolve <enderio : itemAlloy : 6>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:25: Could not resolve <galacticraftcore : machine2>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:25: Could not resolve <galacticraftcore : basic_item : 9>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:25: Could not resolve <enderio : blockDarkSteelAnvil>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:25: Could not resolve <galacticraftcore : basic_item : 9>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:26: Could not resolve <galacticraftcore : basic_item : 10>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:26: Could not resolve <galacticraftcore : machine : 12>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:26: Could not resolve <galacticraftcore : basic_item : 10>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:27: Could not resolve <enderio : itemPowerConduit : 2>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:27: Could not resolve <galacticraftcore : basic_item : 14>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:27: Could not resolve <enderio : itemPowerConduit : 2>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:29: Could not resolve <galacticraftcore : rocket_workbench>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:29: Could not resolve <enderio : itemAlloy : 6>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:29: Could not resolve <enderio : blockCrafter>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:29: Could not resolve <enderio : itemAlloy : 6>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:30: Could not resolve <enderio : itemRedstoneConduit>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:30: Could not resolve <galacticraftcore : basic_item : 14>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:30: Could not resolve <enderio : itemRedstoneConduit>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:31: Could not resolve <galacticraftcore : basic_item : 9>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:31: Could not resolve <enderio : itemRedstoneConduit>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:31: Could not resolve <galacticraftcore : basic_item : 9>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:33: Could not resolve <galacticraftcore : rocket_fins>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:33: Could not resolve <enderio : itemAlloy : 6>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:34: Could not resolve <galacticraftcore : heavy_plating>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:34: Could not resolve <enderio : itemAlloy : 6>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:34: Could not resolve <galacticraftcore : heavy_plating>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:35: Could not resolve <galacticraftcore : heavy_plating>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:35: Could not resolve <galacticraftcore : heavy_plating>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:37: Could not resolve <galacticraftcore : engine>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:37: Could not resolve <galacticraftcore : heavy_plating>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:37: Could not resolve <galacticraftcore : canister>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:37: Could not resolve <galacticraftcore : heavy_plating>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:38: Could not resolve <galacticraftcore : heavy_plating>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:38: Could not resolve <galacticraftcore : air_vent>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:38: Could not resolve <galacticraftcore : heavy_plating>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:39: Could not resolve <enderio : blockCombustionGenerator>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:39: Could not resolve <enderio : itemRedstoneConduit>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:39: Could not resolve <enderio : blockCombustionGenerator>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:41: Could not resolve <galacticraftcore : dungeonfinder>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:41: Could not resolve <galacticraftcore : basic_block_moon : 14>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:42: Could not resolve <galacticraftplanets : mars : 7>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:42: Could not resolve <galacticraftplanets : basic_item_venus : 2>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:42: Could not resolve <galacticraftplanets : mars : 7>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:43: Could not resolve <galacticraftcore : basic_block_moon : 14>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:44: Could not resolve <galacticraftplanets : carbon_fragments>
+[SERVER_STARTED][SERVER][ERROR] ExpertGC.zs:44: Could not resolve <extraplanets : tier4_items : 5>
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ExpertIE.zs}
+[SERVER_STARTED][SERVER][ERROR] ExpertIE.zs:6: Could not resolve <actuallyadditions : blockMisc : 5>
+[SERVER_STARTED][SERVER][ERROR] ExpertIE.zs:7: Could not resolve <mekanism : BasicBlock : 3>
+[SERVER_STARTED][SERVER][ERROR] ExpertIE.zs:8: Could not resolve <quark : charcoal_block>
+[SERVER_STARTED][SERVER][ERROR] ExpertIE.zs:15: Could not resolve <embers : brickCaminite>
+[SERVER_STARTED][SERVER][ERROR] ExpertIE.zs:15: Could not resolve <embers : blendCaminite>
+[SERVER_STARTED][SERVER][ERROR] ExpertIE.zs:16: Could not resolve <forestry : bogEarth>
+[SERVER_STARTED][SERVER][ERROR] ExpertIE.zs:20: Could not resolve <immersiveengineering : stoneDecoration>
+[SERVER_STARTED][SERVER][ERROR] ExpertIE.zs:22: Could not resolve <immersiveengineering : stoneDecoration : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertIE.zs:25: Could not resolve <immersiveengineering : metalDevice1 : 13>
+[SERVER_STARTED][SERVER][ERROR] ExpertIE.zs:28: Could not resolve <immersiveengineering : stoneDecoration>
+[SERVER_STARTED][SERVER][ERROR] ExpertIE.zs:28: Could not resolve <embers : blendCaminite>
+[SERVER_STARTED][SERVER][ERROR] ExpertIE.zs:28: Could not resolve <embers : blendCaminite>
+[SERVER_STARTED][SERVER][ERROR] ExpertIE.zs:29: Could not resolve <actuallyadditions : blockTestifiBucksWhiteWall>
+[SERVER_STARTED][SERVER][ERROR] ExpertIE.zs:30: Could not resolve <embers : blendCaminite>
+[SERVER_STARTED][SERVER][ERROR] ExpertIE.zs:30: Could not resolve <embers : blendCaminite>
+[SERVER_STARTED][SERVER][ERROR] ExpertIE.zs:32: Could not resolve <immersiveengineering : stoneDecoration : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertIE.zs:32: Could not resolve <embers : brickCaminite>
+[SERVER_STARTED][SERVER][ERROR] ExpertIE.zs:33: Could not resolve <embers : brickCaminite>
+[SERVER_STARTED][SERVER][ERROR] ExpertIE.zs:33: Could not resolve <embers : shardEmber>
+[SERVER_STARTED][SERVER][ERROR] ExpertIE.zs:33: Could not resolve <embers : brickCaminite>
+[SERVER_STARTED][SERVER][ERROR] ExpertIE.zs:34: Could not resolve <embers : brickCaminite>
+[SERVER_STARTED][SERVER][ERROR] ExpertIE.zs:36: Could not resolve <immersiveengineering : metalDevice1 : 13>
+[SERVER_STARTED][SERVER][ERROR] ExpertIE.zs:36: Could not resolve <calculator : GasLanternOff>
+[SERVER_STARTED][SERVER][ERROR] ExpertIE.zs:37: Could not resolve <enderio : blockFusedQuartz>
+[SERVER_STARTED][SERVER][ERROR] ExpertIE.zs:37: Could not resolve <calculator : FlawlessGreenhouse>
+[SERVER_STARTED][SERVER][ERROR] ExpertIE.zs:37: Could not resolve <enderio : blockFusedQuartz>
+[SERVER_STARTED][SERVER][ERROR] ExpertIE.zs:38: Could not resolve <actuallyadditions : blockFarmer>
+[SERVER_STARTED][SERVER][ERROR] ExpertIE.zs:41: Could not resolve <immersiveengineering : sheetmetalSlab : 8>
+[SERVER_STARTED][SERVER][ERROR] ExpertIE.zs:58: Could not resolve <galacticraftplanets : item_basic_mars : 5>
+[SERVER_STARTED][SERVER][ERROR] ExpertIE.zs:63: Could not resolve <mekanism : BioFuel>
+[SERVER_STARTED][SERVER][ERROR] ExpertIE.zs:63: Could not resolve <actuallyadditions : itemMisc : 21>
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ExpertMA.zs}
+[SERVER_STARTED][SERVER][ERROR] ExpertMA.zs:1 > No such member: Smeltery
+[SERVER_STARTED][SERVER][ERROR] ExpertMA.zs:1 > Not a valid type
+[SERVER_STARTED][SERVER][ERROR] ExpertMA.zs:11: Could not resolve <mysticalagriculture : prosperity_shard>
+[SERVER_STARTED][SERVER][ERROR] ExpertMA.zs:11: Could not resolve <bloodmagic : ItemDemonCrystal : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertMA.zs:11: Could not resolve <mysticalagriculture : prosperity_shard>
+[SERVER_STARTED][SERVER][ERROR] ExpertMA.zs:12: Could not resolve <bloodmagic : ItemDemonCrystal : 2>
+[SERVER_STARTED][SERVER][ERROR] ExpertMA.zs:12: Could not resolve <bloodmagic : ItemDemonCrystal : 3>
+[SERVER_STARTED][SERVER][ERROR] ExpertMA.zs:13: Could not resolve <mysticalagriculture : prosperity_shard>
+[SERVER_STARTED][SERVER][ERROR] ExpertMA.zs:13: Could not resolve <bloodmagic : ItemDemonCrystal : 4>
+[SERVER_STARTED][SERVER][ERROR] ExpertMA.zs:13: Could not resolve <mysticalagriculture : prosperity_shard>
+[SERVER_STARTED][SERVER][ERROR] ExpertMA.zs:16: Could not resolve <mysticalagriculture : supremium_essence>
+[SERVER_STARTED][SERVER][ERROR] ExpertMA.zs:16: Could not resolve <bloodmagic : ItemInscriptionTool : 6>
+[SERVER_STARTED][SERVER][ERROR] ExpertMA.zs:16: Could not resolve <mysticalagriculture : supremium_essence>
+[SERVER_STARTED][SERVER][ERROR] ExpertMA.zs:17: Could not resolve <advanced_solar_panels : crafting : 9>
+[SERVER_STARTED][SERVER][ERROR] ExpertMA.zs:17: Could not resolve <botania : laputaShard : 19>
+[SERVER_STARTED][SERVER][ERROR] ExpertMA.zs:18: Could not resolve <mysticalagriculture : supremium_essence>
+[SERVER_STARTED][SERVER][ERROR] ExpertMA.zs:18: Could not resolve <mekanism : Crystal : 0>
+[SERVER_STARTED][SERVER][ERROR] ExpertMA.zs:18: Could not resolve <mysticalagriculture : supremium_essence>
+[SERVER_STARTED][SERVER][ERROR] ExpertMA.zs:21: Could not resolve <mysticalagriculture : supremium_ingot>
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ExpertMekanism.zs}
+[SERVER_STARTED][SERVER][ERROR] ExpertMekanism.zs:7: Could not resolve <mekanism : BasicBlock : 8>
+[SERVER_STARTED][SERVER][ERROR] ExpertMekanism.zs:8: Could not resolve <mekanism : MultipartTransmitter : 0>
+[SERVER_STARTED][SERVER][ERROR] ExpertMekanism.zs:9: Could not resolve <mekanism : MachineBlock : 10>
+[SERVER_STARTED][SERVER][ERROR] ExpertMekanism.zs:10: Could not resolve <mekanism : MachineBlock : 0>
+[SERVER_STARTED][SERVER][ERROR] ExpertMekanism.zs:11: Could not resolve <mekanism : MachineBlock : 9>
+[SERVER_STARTED][SERVER][ERROR] ExpertMekanism.zs:12: Could not resolve <mekanism : MachineBlock2 : 3>
+[SERVER_STARTED][SERVER][ERROR] ExpertMekanism.zs:13: Could not resolve <mekanism : MachineBlock2 : 6>
+[SERVER_STARTED][SERVER][ERROR] ExpertMekanism.zs:14: Could not resolve <mekanism : TeleportationCore>
+[SERVER_STARTED][SERVER][ERROR] ExpertMekanism.zs:15: Could not resolve <mekanism : MachineBlock : 4>
+[SERVER_STARTED][SERVER][ERROR] ExpertMekanism.zs:16: Could not resolve <mekanism : MachineBlock : 8>
+[SERVER_STARTED][SERVER][ERROR] ExpertMekanism.zs:17: Could not resolve <mekanismgenerators : Generator : 4>
+[SERVER_STARTED][SERVER][ERROR] ExpertMekanism.zs:20: Could not resolve <mekanism : BioFuel>
+[SERVER_STARTED][SERVER][ERROR] ExpertMekanism.zs:20: Could not resolve <forestry : decayingWheat>
+[SERVER_STARTED][SERVER][ERROR] ExpertMekanism.zs:20: Could not resolve <actuallyadditions : itemMisc : 21>
+[SERVER_STARTED][SERVER][ERROR] ExpertMekanism.zs:21: Could not resolve <mekanism : MultipartTransmitter : 0>
+[SERVER_STARTED][SERVER][ERROR] ExpertMekanism.zs:32: Could not resolve <mekanism : MachineBlock : 9>
+[SERVER_STARTED][SERVER][ERROR] ExpertMekanism.zs:32: Could not resolve <mekanism : EnrichedAlloy>
+[SERVER_STARTED][SERVER][ERROR] ExpertMekanism.zs:32: Could not resolve <mekanism : EnrichedAlloy>
+[SERVER_STARTED][SERVER][ERROR] ExpertMekanism.zs:33: Could not resolve <mekanism : MachineBlock : 0>
+[SERVER_STARTED][SERVER][ERROR] ExpertMekanism.zs:34: Could not resolve <mekanism : EnrichedAlloy>
+[SERVER_STARTED][SERVER][ERROR] ExpertMekanism.zs:34: Could not resolve <mekanism : ControlCircuit : 2>
+[SERVER_STARTED][SERVER][ERROR] ExpertMekanism.zs:34: Could not resolve <mekanism : EnrichedAlloy>
+[SERVER_STARTED][SERVER][ERROR] ExpertMekanism.zs:36: Could not resolve <mekanism : MachineBlock2 : 3>
+[SERVER_STARTED][SERVER][ERROR] ExpertMekanism.zs:36: Could not resolve <mekanism : ReinforcedAlloy>
+[SERVER_STARTED][SERVER][ERROR] ExpertMekanism.zs:36: Could not resolve <mekanism : ReinforcedAlloy>
+[SERVER_STARTED][SERVER][ERROR] ExpertMekanism.zs:37: Could not resolve <mekanism : MachineBlock : 9>
+[SERVER_STARTED][SERVER][ERROR] ExpertMekanism.zs:38: Could not resolve <mekanism : ReinforcedAlloy>
+[SERVER_STARTED][SERVER][ERROR] ExpertMekanism.zs:38: Could not resolve <mekanism : ReinforcedAlloy>
+[SERVER_STARTED][SERVER][ERROR] ExpertMekanism.zs:44: Could not resolve <mekanism : TeleportationCore>
+[SERVER_STARTED][SERVER][ERROR] ExpertMekanism.zs:44: Could not resolve <actuallyadditions : itemCrystalEmpowered : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertMekanism.zs:44: Could not resolve <mekanism : AtomicAlloy>
+[SERVER_STARTED][SERVER][ERROR] ExpertMekanism.zs:44: Could not resolve <actuallyadditions : itemCrystalEmpowered : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertMekanism.zs:45: Could not resolve <redstonearsenal : material : 32>
+[SERVER_STARTED][SERVER][ERROR] ExpertMekanism.zs:45: Could not resolve <redstonearsenal : material : 32>
+[SERVER_STARTED][SERVER][ERROR] ExpertMekanism.zs:46: Could not resolve <actuallyadditions : itemCrystalEmpowered : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertMekanism.zs:46: Could not resolve <mekanism : AtomicAlloy>
+[SERVER_STARTED][SERVER][ERROR] ExpertMekanism.zs:46: Could not resolve <actuallyadditions : itemCrystalEmpowered : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertMekanism.zs:48: Could not resolve <mekanism : MachineBlock : 4>
+[SERVER_STARTED][SERVER][ERROR] ExpertMekanism.zs:48: Could not resolve <mekanism : AtomicAlloy>
+[SERVER_STARTED][SERVER][ERROR] ExpertMekanism.zs:48: Could not resolve <mekanism : AtomicAlloy>
+[SERVER_STARTED][SERVER][ERROR] ExpertMekanism.zs:49: Could not resolve <actuallyadditions : blockMiner>
+[SERVER_STARTED][SERVER][ERROR] ExpertMekanism.zs:49: Could not resolve <mekanism : Robit>
+[SERVER_STARTED][SERVER][ERROR] ExpertMekanism.zs:50: Could not resolve <mekanism : TeleportationCore>
+[SERVER_STARTED][SERVER][ERROR] ExpertMekanism.zs:50: Could not resolve <environmentaltech : controller_void_ore_miner_3>
+[SERVER_STARTED][SERVER][ERROR] ExpertMekanism.zs:50: Could not resolve <mekanism : TeleportationCore>
+[SERVER_STARTED][SERVER][ERROR] ExpertMekanism.zs:56: Could not resolve <mekanismgenerators : Generator : 4>
+[SERVER_STARTED][SERVER][ERROR] ExpertMekanism.zs:56: Could not resolve <actuallyadditions : itemMisc : 8>
+[SERVER_STARTED][SERVER][ERROR] ExpertMekanism.zs:56: Could not resolve <actuallyadditions : itemMisc : 8>
+[SERVER_STARTED][SERVER][ERROR] ExpertMekanism.zs:57: Could not resolve <mekanism : BioFuel>
+[SERVER_STARTED][SERVER][ERROR] ExpertMekanism.zs:57: Could not resolve <mekanism : BioFuel>
+[SERVER_STARTED][SERVER][ERROR] ExpertMekanism.zs:58: Could not resolve <actuallyadditions : itemCrystal : 5>
+[SERVER_STARTED][SERVER][ERROR] ExpertMekanism.zs:58: Could not resolve <actuallyadditions : itemCrystal : 5>
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ExpertOreDict.zs}
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ExpertPsi.zs}
+[SERVER_STARTED][SERVER][ERROR] ExpertPsi.zs:3: Could not resolve <psi : cadAssembler>
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ExpertRFTools.zs}
+[SERVER_STARTED][SERVER][ERROR] ExpertRFTools.zs:6: Could not resolve <rftoolsdim : dimension_builder>
+[SERVER_STARTED][SERVER][ERROR] ExpertRFTools.zs:9: Could not resolve <actuallyadditions : itemFilter>
+[SERVER_STARTED][SERVER][ERROR] ExpertRFTools.zs:9: Could not resolve <bloodmagic : ItemRouterFilter>
+[SERVER_STARTED][SERVER][ERROR] ExpertRFTools.zs:10: Could not resolve <enderio : itemBasicFilterUpgrade : 0>
+[SERVER_STARTED][SERVER][ERROR] ExpertRFTools.zs:10: Could not resolve <enderio : itemBasicFilterUpgrade : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertRFTools.zs:11: Could not resolve <refinedstorage : grid_filter>
+[SERVER_STARTED][SERVER][ERROR] ExpertRFTools.zs:17: Could not resolve <rftoolsdim : dimension_builder>
+[SERVER_STARTED][SERVER][ERROR] ExpertRFTools.zs:19: Could not resolve <mekanism : Crystal : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertRFTools.zs:19: Could not resolve <mekanism : Crystal : 1>
+[SERVER_STARTED][SERVER][ERROR] ExpertRFTools.zs:19: Could not resolve <mekanism : Crystal : 1>
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ExpertRS+AE2.zs}
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ExpertRS.zs}
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ExpertTC.zs}
+[SERVER_STARTED][SERVER][ERROR] [crafttweaker | SIDE_CLIENT]: Error parsing ExpertTC.zs:19 -- ; expected
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: ExpertTE.zs}
+[SERVER_STARTED][SERVER][ERROR] [crafttweaker | SIDE_CLIENT]: Error parsing ExpertTE.zs:28 -- ; expected
+[SERVER_STARTED][SERVER][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: MineTweakerRecipeMaker.zs}
+[SERVER_STARTED][SERVER][ERROR] MineTweakerRecipeMaker.zs:37: Could not resolve <sonarcore : ReinforcedStoneBlock>
+[SERVER_STARTED][SERVER][ERROR] MineTweakerRecipeMaker.zs:47: Could not resolve <actuallyadditions : blockMisc : 3>
